@@ -14,3 +14,5 @@
       Then Kullanici alacakli cari secer
       Then Kullanici Tl Tutar girer
       Then Kullanici virman kaydet butonuna tıklar
+      #Then Kullanici olusturdugu virman fisini siler
+

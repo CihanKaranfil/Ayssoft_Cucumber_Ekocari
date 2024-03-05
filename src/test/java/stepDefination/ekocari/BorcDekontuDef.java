@@ -35,8 +35,12 @@ public class BorcDekontuDef {
 
     @When("Kullanici fis no girer")
     public void kullaniciFisNoGirer() {
-       borcDekontu.fisNo.clear();
-       borcDekontu.fisNo.sendKeys(faker.number().digits(3));
+        try {
+            borcDekontu.fisNo.clear();
+        } catch (Exception e) {
+            borcDekontu.fisNo.clear();
+        }
+        borcDekontu.fisNo.sendKeys(faker.number().digits(3));
     }
 
     @Then("Kullanici Cari seçimini yapar")
