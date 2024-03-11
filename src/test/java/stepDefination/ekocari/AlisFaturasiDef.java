@@ -37,14 +37,12 @@ public class AlisFaturasiDef {
     }
 
     @When("Cari seçimini yap")
-    public void cariSeçiminiYap() {
-        alisPages.caributton.click();
-        List<WebElement> webElements = Driver.getDriver().findElements(By.xpath("//*[@class='k-master-row']"));
+    public void cariSeçiminiYap() throws InterruptedException {
+        alisPages.caributton.click();Thread.sleep(1000);
+        alisPages.listedencarisec.click();
+        alisPages.listedencarisec.click();
 
-        actions.doubleClick(webElements.get(webElements.size()-1)).perform();
 
-        //alisPages.carisec.click();
-        //alisPages.carisec.click();
     }
 
     @Then("Fatura no gir")
@@ -69,5 +67,16 @@ public class AlisFaturasiDef {
     public void kayıtBasarıylaKaydedildiYazısınıDogrula() {
         alisPages.basariliyazisi.isEnabled();
         Assert.assertTrue(alisPages.basariliyazisi.isEnabled());
+    }
+
+    @When("Alıs faturasında Cari seçimini yap")
+    public void alısFaturasındaCariSeçiminiYap() throws InterruptedException {
+        alisPages.cariSec.click();Thread.sleep(1000);
+
+        alisPages.listedenCariSec.click();
+        alisPages.listedenCariSec.click();
+
+
+
     }
 }

@@ -1,4 +1,4 @@
-@borcdekontu
+@cihan22
   Feature: Cari hareketlerde borc dekontu olşturma
 
     Background:Kullanıcı Ekocari sayfasına giris yapar

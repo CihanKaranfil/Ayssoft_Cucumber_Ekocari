@@ -16,6 +16,7 @@ public class BorcDekontuPages {
     @FindBy(xpath = "//*[@id=\"txtFICHENO\"]") public WebElement fisNo;
     @FindBy(xpath = "//*[@id=\"customerForm\"]/wt-tab-container/wt-tab-content/div[1]/div/div/div[2]/div/div[3]/div/button") public WebElement cariButton;
     @FindBy(xpath = "//*[@id=\"row0grid\"]") public WebElement secilenCari;
+    @FindBy(xpath = "//*[@id=\"row0Customergrid\"]") public WebElement secilenCari2;
     @FindBy(xpath = "//*[@id=\"txtCREDIT\"]") public WebElement tlTutar;
     @FindBy(xpath = "//*[@id=\"row0grid\"]") public WebElement kaydetButton;
     @FindBy(xpath = "//*[@id=\"gelecekDeger\"]/div/div[2]/div/div[2]/button") public WebElement kaydetButton2;

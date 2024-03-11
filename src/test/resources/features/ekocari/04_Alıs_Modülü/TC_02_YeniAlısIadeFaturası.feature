@@ -1,4 +1,4 @@
-
+@alışmodulu0
 Feature: Kullanıcı Yeni Alış Iade Faturası Ekler
   Scenario: US_01_Yeni Alış İade Faturası Ekleme
     Given Kullanici "ekocariUrl" sayfasına gider
@@ -9,9 +9,10 @@ Feature: Kullanıcı Yeni Alış Iade Faturası Ekler
     When Alış Faturalarına tıkla
     Then Yeni Fatura butonuna tıkla
     Then Alış İade Faturası olustura tıkla
-    When Cari seçimini yap
+    When Alıs faturasında Cari seçimini yap
     Then Fatura no gir
     Then Satır ekle butonuna tıkla
     Then Yeni Alıs Faturası Kaydet butonuna tıklar
     Then Kayıt Basarıyla Kaydedildi yazısını dogrula
    And Sayfayı kapar
+    #bu test calısıyor

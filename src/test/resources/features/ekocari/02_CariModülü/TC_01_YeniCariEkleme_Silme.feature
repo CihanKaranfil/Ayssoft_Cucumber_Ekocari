@@ -1,4 +1,4 @@
-@cihan
+@cihan22
 Feature: Kullanici Cari Ekler ve Cari Siler
 
   Background:Kullanıcı Ekocari sayfasına giris yapar

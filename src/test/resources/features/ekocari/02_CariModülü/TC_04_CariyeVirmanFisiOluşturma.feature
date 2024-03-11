@@ -1,4 +1,4 @@
-@virmanfisi
+@cihan22
   Feature: Cariye Virman Fişi Oluşturma
     Scenario: Kullanici cariye virman fisi olusturur
       Given Kullanici "ekocariUrl" sayfasına gider

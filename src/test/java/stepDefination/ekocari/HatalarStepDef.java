@@ -124,4 +124,10 @@ public class HatalarStepDef {
 
 
     }
+
+    @Then("Yeni Satıs iade Faturasına tıklar")
+    public void yeniSatısIadeFaturasınaTıklar() {
+        hatalarPages.satısiadefaturasi.click();
+
+    }
 }

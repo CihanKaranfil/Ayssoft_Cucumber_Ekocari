@@ -88,7 +88,7 @@ public class Ekocari_StepDef {
     @Then("Kaydet butonuna tıklar")
     public void kaydetButonunaTıklar() throws InterruptedException {
         try {
-            homePage.kaydetbuton.click();
+            homePage.kaydetbuton2.click();
         } catch (Exception e) {
             homePage.kaydetbuton2.click();
         }
@@ -97,7 +97,8 @@ public class Ekocari_StepDef {
 
     @Given("Cari listesindeki son karta sag tıklar ve siler")
     public void cariListesindekiSonKartaSagTıklarVeSiler() throws InterruptedException {
-        List<WebElement> cariListesi = Driver.getDriver().findElements(By.xpath("//*[@id=\"gridList\"]/div[2]/table/tbody/tr"));
+        List<WebElement> cariListesi =
+           Driver.getDriver().findElements(By.xpath("//*[@id=\"gridList\"]/div[2]/table/tbody/tr"));
         Actions actions = new Actions(Driver.getDriver());
         actions.contextClick(cariListesi.get(cariListesi.size()-1)).perform();
         homePage.cariSil.click();

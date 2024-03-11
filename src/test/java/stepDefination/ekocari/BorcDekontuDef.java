@@ -40,7 +40,7 @@ public class BorcDekontuDef {
         } catch (Exception e) {
             borcDekontu.fisNo.clear();
         }
-        borcDekontu.fisNo.sendKeys(faker.number().digits(3));
+        borcDekontu.fisNo.sendKeys("CK-"+faker.number().digits(3));
     }
 
     @Then("Kullanici Cari seçimini yapar")
