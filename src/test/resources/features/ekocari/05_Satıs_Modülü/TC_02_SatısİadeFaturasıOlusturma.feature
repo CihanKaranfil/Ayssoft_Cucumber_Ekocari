@@ -1,4 +1,4 @@
-@satışmodülü
+@ortaktag
 Feature:Satış İade Faturası Olusturma
   Scenario: Kullanici Satış İade Faturası Oluşturur
     Given Kullanici "ekocariUrl" sayfasına gider

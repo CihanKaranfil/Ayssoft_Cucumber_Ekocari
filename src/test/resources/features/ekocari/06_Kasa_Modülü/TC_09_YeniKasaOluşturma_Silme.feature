@@ -1,4 +1,4 @@
-@kasaişlemleri
+@ortaktag
 Feature: Kullanıcı yeni kasa oluştutrur ve oluşturdugu kasayı siler
   Scenario: Kullanıcı yeni kasa oluştutrur ve oluşturdugu kasayı siler
     Given Kullanici "ekocariUrl" sayfasına gider

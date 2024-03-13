@@ -1,4 +1,4 @@
-@sayimeksigifisi
+@ortaktag
 Feature:Yeni Sayım Eksigi Fisi Olusturma
   Scenario: Kullanici Stok Hareketlerde Sayım Eksigi Fisi Olustrur
     Given Kullanici "ekocariUrl" sayfasına gider

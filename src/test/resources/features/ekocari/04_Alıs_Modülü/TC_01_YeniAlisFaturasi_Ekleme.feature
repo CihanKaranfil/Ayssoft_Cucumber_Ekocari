@@ -1,4 +1,4 @@
-@alışmodulu0
+@ortaktag
 Feature: Kullanıcı Yeni Alış Faturası Ekler
   Scenario: US_01_Yeni Alış Faturası Ekleme
     Given Kullanici "ekocariUrl" sayfasına gider

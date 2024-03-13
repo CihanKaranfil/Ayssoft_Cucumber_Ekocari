@@ -1,4 +1,4 @@
-@sarffisi
+@ortaktag
 Feature:Yeni Sarf Fisi Olusturma
   Scenario: Kullanici Stok Hareketlerde Sarf Fisi Olustrur
     Given Kullanici "ekocariUrl" sayfasına gider

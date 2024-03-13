@@ -1,4 +1,4 @@
-@devirfisi
+@ortaktag
 Feature:Yeni Devir Fisi Olusturma
   Scenario: Kullanici Stok Hareketlerde Devir Fisi Olustrur
     Given Kullanici "ekocariUrl" sayfasına gider

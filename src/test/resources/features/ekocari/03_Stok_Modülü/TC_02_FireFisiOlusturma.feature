@@ -1,4 +1,4 @@
-@firefisi
+@ortaktag
   Feature:Yeni Fire Fisi Olusturma
     Scenario: Kullanici Stok Hareketlerde Fire Fisi Olustrur
       Given Kullanici "ekocariUrl" sayfasına gider

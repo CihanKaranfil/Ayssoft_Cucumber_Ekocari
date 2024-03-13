@@ -1,4 +1,4 @@
-
+@ortaktag
   Feature: Aliş İade Faturasının Aliş Faturasına Dönüşmesi
     Scenario: Aliş İade Faturasının Aliş Faturasına Dönüşmesi
       Given Kullanici "ekocariUrl" sayfasına gider

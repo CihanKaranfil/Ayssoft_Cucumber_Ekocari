@@ -1,4 +1,4 @@
-@stok
+@ortaktag
 Feature: Kullanıcı Stok Ekler ve Siler
   Background:Kullanıcı Ekocari sayfasına giris yapar
 

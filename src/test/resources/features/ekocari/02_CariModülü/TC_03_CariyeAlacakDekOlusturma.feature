@@ -1,4 +1,4 @@
-@carimodulu
+@ortaktag
   Feature: Cari hareketlerde alacak dekontu olşturma
     Background:Kullanıcı Ekocari sayfasına giris yapar
 

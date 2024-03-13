@@ -1,4 +1,4 @@
-
+@ortaktag
   Feature: Dövizli Satıs Faturalarında açıklama bolumunun bos olması
     Scenario: Dövizli Satıs Faturalarında açıklama bolumunun gelmemesi
       Given Kullanici "ekocariUrl" sayfasına gider

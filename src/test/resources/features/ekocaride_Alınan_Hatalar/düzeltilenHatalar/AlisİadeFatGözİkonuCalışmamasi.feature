@@ -1,4 +1,4 @@
-@hatalar
+@ortaktag
   Feature:Alis İade Faturasındaki İncele İkonun Çalışmaması
     Scenario: Alis İade Faturasındaki İncele İkonun Çalışmaması
       Given Kullanici "ekocariUrl" sayfasına gider

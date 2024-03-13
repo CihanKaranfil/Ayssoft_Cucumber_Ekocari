@@ -1,4 +1,4 @@
-@cihan22
+@ortaktag01
 Feature: Kullanici Cari Ekler ve Cari Siler
 
   Background:Kullanıcı Ekocari sayfasına giris yapar
@@ -20,6 +20,7 @@ Feature: Kullanici Cari Ekler ve Cari Siler
     Given Cari listesindeki son karta sag tıklar ve siler
     When Kullanici sayfayi kapatir
      #dogrulama ekle
+  #bu test çalısıyor
 
 
 

@@ -1,4 +1,4 @@
-@alışmodulu0
+@ortaktag
 Feature:Alis Teklifi Oluşturma
   Scenario: Kullanici Alis Teklifi Oluşturur
     Given Kullanici "ekocariUrl" sayfasına gider

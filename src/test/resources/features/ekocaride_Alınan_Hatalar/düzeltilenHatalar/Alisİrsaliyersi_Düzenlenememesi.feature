@@ -1,4 +1,4 @@
-
+@ortaktag
   Feature: Alış irsaliyelerinin düzenlenememesi
     Scenario:  Alış irsaliyelerinin düzenlenememesi
       Given Kullanici "ekocariUrl" sayfasına gider

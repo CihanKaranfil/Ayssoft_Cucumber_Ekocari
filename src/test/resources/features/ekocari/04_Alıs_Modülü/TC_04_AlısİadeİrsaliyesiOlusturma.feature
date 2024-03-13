@@ -1,4 +1,4 @@
-@alışmodulu0
+@ortaktag
 Feature:Alis İade İrsaliyesi Oluşturma
   Scenario: Kullanici Alis İade İrsaliyesi Oluşturur
     Given Kullanici "ekocariUrl" sayfasına gider

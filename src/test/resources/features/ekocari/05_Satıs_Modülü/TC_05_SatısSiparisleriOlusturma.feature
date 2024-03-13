@@ -1,16 +1,17 @@
 @ortaktag
-Feature:Alis Siparisi Oluşturma
-  Scenario: Kullanici Alis Siparisi Oluşturur
+Feature:Satış Siparisi Olusturma
+  Scenario: Kullanici Satış Siparisi Oluşturur
     Given Kullanici "ekocariUrl" sayfasına gider
     When Kullanici e pota ve sifre girer
     Then Kullanici giris butonuna tiklar
     Then Firmalar bolumunden firma sec
-    Then Alış menusune tıkla
-    Then Alış siparişlerine tıkla
+    Then Kullanici satis menusune tıklar
+    Then Kullanici Satıs Siparislerine tıklar
     When Yeni Sipariş Oluştura tıkla
-    When Alıs faturasında Cari seçimini yap
+    When Cari seçimini yap yeni irsaliyede
     Then Fatura no gir
     Then Satır ekle butonuna tıkla
-    Then Yeni Alıs İrsaliye Kaydet butonuna tıklar
-    # bu test çalışıyor
+    And Kaydet butonuna tıklar
+    #bu test çalısıyor
+
 

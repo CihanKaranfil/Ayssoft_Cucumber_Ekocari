@@ -1,4 +1,4 @@
-@alışmodulu0
+@ortaktag
   Feature:Alis İrsaliyesi Oluşturma ve Silme
     Scenario: Kullanici Alis İrsaliyesi Oluşturur ve Siler
       Given Kullanici "ekocariUrl" sayfasına gider

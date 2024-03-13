@@ -1,4 +1,4 @@
-@sayimfazlasifisi
+@ortaktag
 Feature:Yeni Sayım Fazlası Fisi Olusturma
   Scenario: Kullanici Stok Hareketlerde Sayım Fazlası Fisi Olustrur
     Given Kullanici "ekocariUrl" sayfasına gider

@@ -1,4 +1,4 @@
-@depofisi
+@ortaktag
 Feature:Yeni Depo Fisi Olusturma
   Scenario: Kullanici Stok Hareketlerde Depo Fisi Olustrur
     Given Kullanici "ekocariUrl" sayfasına gider

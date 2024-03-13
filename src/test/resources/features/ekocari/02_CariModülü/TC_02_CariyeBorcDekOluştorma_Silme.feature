@@ -1,4 +1,4 @@
-@cihan22
+@ortaktag
   Feature: Cari hareketlerde borc dekontu olşturma
 
     Background:Kullanıcı Ekocari sayfasına giris yapar

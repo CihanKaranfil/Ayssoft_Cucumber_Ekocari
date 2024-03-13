@@ -4,52 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="6.03.2024/v-2">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/AlisSiparisPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/AlisTeklifPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/DepoFisiPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/DevirFisiPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/FireFisiPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/SarfFisiPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/SayımEksigiFisiPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/SayımFazlasıFisiPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisTeklifStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlısSiparisStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/DepoFisiStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/DevirFisitepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/FireFisiStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/SarfFisiStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/SayımEksigiFisiStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/SayımFazlasıStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_02_FireFisiOlusturma.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_04_DevirFisiOlusturma.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_05_Depo FişiOlusturma.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_06_SayımFazlasıFisiOlusturma.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_07_SayımEksigiFisi.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_04_AlısİadeİrsaliyesiOlusturma.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_05_AlısSiparisiOlusturma.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_06_AlisTeklifleriOlusturma.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_01_SatısFaturasıOlusturma.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_02_SatısİadeFaturasıOlusturma.feature" afterDir="false" />
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="11.03.2024/v-1">
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/SatısIrsaliyesiPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/SatısİrsaliyesiStepdefs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_03_SatısİrsaliyesiOlusturma.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_04_SatısİadeİrsaliyesiOlusturma.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_05_SatısSiparisleriOlusturma.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_06_SatısTeklifleriOlusturma.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ekocari/AlisPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/AlisPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ekocari/BorcDekontuPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/BorcDekontuPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ekocari/HatalarPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/HatalarPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ekocari/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisFaturasiDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisFaturasiDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/BorcDekontuDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/BorcDekontuDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/BankaIslemleriDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/BankaIslemleriDef.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/Ekocari_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/Ekocari_StepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/HatalarStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/HatalarStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/StokEklemeSilme_Def.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/StokEklemeSilme_Def.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/01_GirisModülü/TC_01_KullanıcıGirisi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/01_GirisModülü/TC_01_KullanıcıGirisi.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/02_CariModülü/TC_01_YeniCariEkleme_Silme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/02_CariModülü/TC_01_YeniCariEkleme_Silme.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/02_CariModülü/TC_02_CariyeBorcDekOluştorma_Silme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/02_CariModülü/TC_02_CariyeBorcDekOluştorma_Silme.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/02_CariModülü/TC_03_CariyeAlacakDekOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/02_CariModülü/TC_03_CariyeAlacakDekOlusturma.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/02_CariModülü/TC_04_CariyeVirmanFisiOluşturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/02_CariModülü/TC_04_CariyeVirmanFisiOluşturma.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/02_CariModülü/TC_05_CariyeAcılısFisiOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/02_CariModülü/TC_05_CariyeAcılısFisiOlusturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_01_StokEkleme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_01_StokEkleme.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_02_FireFisiOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_02_FireFisiOlusturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_03_SarfFisiOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_03_SarfFisiOlusturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_04_DevirFisiOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_04_DevirFisiOlusturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_05_Depo FişiOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_05_Depo FişiOlusturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_06_SayımFazlasıFisiOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_06_SayımFazlasıFisiOlusturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_07_SayımEksigiFisi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_07_SayımEksigiFisi.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_01_YeniAlisFaturasi_Ekleme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_01_YeniAlisFaturasi_Ekleme.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_02_YeniAlısIadeFaturası.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_02_YeniAlısIadeFaturası.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_03_AlisIrsaliyesiOluşturma_Silme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_03_AlisIrsaliyesiOluşturma.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_01_YeniSatısFaturasıOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_03_SarfFisiOlusturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_03_AlisIrsaliyesiOluşturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_03_AlisIrsaliyesiOluşturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_04_AlısİadeİrsaliyesiOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_04_AlısİadeİrsaliyesiOlusturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_05_AlısSiparisiOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_05_AlısSiparisiOlusturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_06_AlisTeklifleriOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_06_AlisTeklifleriOlusturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_01_SatısFaturasıOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_01_SatısFaturasıOlusturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_02_SatısİadeFaturasıOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_02_SatısİadeFaturasıOlusturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/06_Kasa_Modülü/TC_09_YeniKasaOluşturma_Silme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/06_Kasa_Modülü/TC_09_YeniKasaOluşturma_Silme.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/07_Banka_Modülü/TC_01_YeniBankaOluşturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/07_Banka_Modülü/TC_01_YeniBankaOluşturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocaride_Alınan_Hatalar/devamEdenHatalar/DövizliSatışFatAçıklamanınBoşOlması.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocaride_Alınan_Hatalar/devamEdenHatalar/DövizliSatışFatAçıklamanınBoşOlması.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocaride_Alınan_Hatalar/düzeltilenHatalar/AlisİadeFatGözİkonuCalışmamasi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocaride_Alınan_Hatalar/düzeltilenHatalar/AlisİadeFatGözİkonuCalışmamasi.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocaride_Alınan_Hatalar/düzeltilenHatalar/Alisİrsaliyersi_Düzenlenememesi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocaride_Alınan_Hatalar/düzeltilenHatalar/Alisİrsaliyersi_Düzenlenememesi.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocaride_Alınan_Hatalar/düzeltilenHatalar/AlişİadeFat_AlişFaturasına_Dönüşmesi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocaride_Alınan_Hatalar/düzeltilenHatalar/AlişİadeFat_AlişFaturasına_Dönüşmesi.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,10 +90,13 @@
   "keyToString": {
     "Cucumber Java.Feature: Alisİrsaliyersi_Düzenlenememesi.executor": "Run",
     "Cucumber Java.Feature: TC_01_SatısFaturasıOlusturma.executor": "Run",
+    "Cucumber Java.Feature: TC_01_YeniBankaOluşturma.executor": "Run",
     "Cucumber Java.Feature: TC_02_CariyeBorcDekOluştorma_Silme.executor": "Run",
+    "Cucumber Java.Feature: TC_03_SatısİrsaliyesiOlusturma.executor": "Run",
     "Cucumber Java.Feature: TC_03_StokEkleme.executor": "Run",
     "Cucumber Java.Feature: TC_05_Depo FişiOlusturma.executor": "Run",
     "Cucumber Java.Feature: TC_07_SayımEksigiFisi.executor": "Run",
+    "Cucumber Java.Feature: TC_09_YeniKasaOluşturma_Silme.executor": "Run",
     "JUnit.Runner.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -140,14 +136,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: TC_02_CariyeBorcDekOluştorma_Silme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: TC_01_YeniBankaOluşturma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/02_CariModülü/TC_02_CariyeBorcDekOluştorma_Silme.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/07_Banka_Modülü/TC_01_YeniBankaOluşturma.feature" />
       <option name="GLUE" value="stepDefination.ekocari hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AYSSOFT_CUCUMBER_TEST" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC_02_CariyeBorcDekOluştorma_Silme" />
+      <option name="SUGGESTED_NAME" value="Feature: TC_01_YeniBankaOluşturma" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -159,14 +155,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: TC_05_Depo FişiOlusturma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: TC_03_SatısİrsaliyesiOlusturma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_05_Depo FişiOlusturma.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_03_SatısİrsaliyesiOlusturma.feature" />
       <option name="GLUE" value="stepDefination.ekocari hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AYSSOFT_CUCUMBER_TEST" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC_05_Depo FişiOlusturma" />
+      <option name="SUGGESTED_NAME" value="Feature: TC_03_SatısİrsaliyesiOlusturma" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -178,14 +174,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: TC_07_SayımEksigiFisi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: TC_09_YeniKasaOluşturma_Silme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/03_Stok_Modülü/TC_07_SayımEksigiFisi.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/06_Kasa_Modülü/TC_09_YeniKasaOluşturma_Silme.feature" />
       <option name="GLUE" value="stepDefination.ekocari hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AYSSOFT_CUCUMBER_TEST" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC_07_SayımEksigiFisi" />
+      <option name="SUGGESTED_NAME" value="Feature: TC_09_YeniKasaOluşturma_Silme" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -215,10 +211,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Feature: TC_01_YeniBankaOluşturma" />
+        <item itemvalue="Cucumber Java.Feature: TC_09_YeniKasaOluşturma_Silme" />
         <item itemvalue="Cucumber Java.Feature: TC_01_SatısFaturasıOlusturma" />
-        <item itemvalue="Cucumber Java.Feature: TC_02_CariyeBorcDekOluştorma_Silme" />
-        <item itemvalue="Cucumber Java.Feature: TC_07_SayımEksigiFisi" />
-        <item itemvalue="Cucumber Java.Feature: TC_05_Depo FişiOlusturma" />
+        <item itemvalue="Cucumber Java.Feature: TC_03_SatısİrsaliyesiOlusturma" />
       </list>
     </recent_temporary>
   </component>
@@ -254,7 +250,13 @@
       <workItem from="1709896003690" duration="4978000" />
       <workItem from="1709963379497" duration="1051000" />
       <workItem from="1709972949351" duration="2150000" />
-      <workItem from="1710143763230" duration="9221000" />
+      <workItem from="1710143763230" duration="15189000" />
+      <workItem from="1710221573518" duration="13000" />
+      <workItem from="1710221622500" duration="317000" />
+      <workItem from="1710223996225" duration="19000" />
+      <workItem from="1710225967950" duration="8205000" />
+      <workItem from="1710307697985" duration="1723000" />
+      <workItem from="1710314749004" duration="10036000" />
     </task>
     <task id="LOCAL-00001" summary="5.03.2024/v-2">
       <option name="closed" value="true" />
@@ -280,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709729319184</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="11.03.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1710159037547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710159037547</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +311,8 @@
     <MESSAGE value="v-1" />
     <MESSAGE value="5.03.2024/v-2" />
     <MESSAGE value="6.03.2024/v-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.03.2024/v-2" />
+    <MESSAGE value="11.03.2024/v-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.03.2024/v-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
