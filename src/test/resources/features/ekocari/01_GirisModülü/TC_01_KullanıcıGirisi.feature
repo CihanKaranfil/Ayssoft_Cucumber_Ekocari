@@ -1,4 +1,4 @@
-@cihan
+@ortaktag
 Feature: Kullanıcı Hesap Bilgilerini Girerek Login Olmalı
 
   Scenario: Kullanıcı Ekocari sayfasına giriş yapar

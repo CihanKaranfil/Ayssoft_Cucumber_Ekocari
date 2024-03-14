@@ -1,4 +1,4 @@
-@kasaislemleri
+@ortaktag
   Feature: Banka İşlemleri
 
     Scenario: Kullanici Yeni Banka  hesabı oluşturur

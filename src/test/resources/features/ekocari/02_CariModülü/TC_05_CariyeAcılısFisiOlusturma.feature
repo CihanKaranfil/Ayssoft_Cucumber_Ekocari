@@ -1,4 +1,4 @@
-@acılısFisi
+@ortaktag
 Feature: Cariye Acılıs Fişi Oluşturma
   Scenario: Kullanici cariye Acılıs fisi olusturur
     Given Kullanici "ekocariUrl" sayfasına gider

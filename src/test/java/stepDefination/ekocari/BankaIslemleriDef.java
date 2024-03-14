@@ -32,6 +32,11 @@ public class BankaIslemleriDef {
 
     @When("Kullanici banka kodu girer")
     public void kullaniciBankaKoduGirer() {
+        try {
+            bankaPages.bankaKodu.clear();
+        } catch (Exception e) {
+            bankaPages.bankaKodu.clear();
+        }
         bankaPages.bankaKodu.sendKeys(faker.number().digits(3));
     }
 
@@ -47,9 +52,11 @@ public class BankaIslemleriDef {
     }
 
     @Then("Kullanici olusturdugu banka hesabını siler")
-    public void kullaniciOlusturduguBankaHesabınıSiler() {
+    public void kullaniciOlusturduguBankaHesabınıSiler() throws InterruptedException {
         actions.contextClick(bankaPages.olusanBanka).perform();
+
         bankaPages.silIconu.click();
+        Thread.sleep(2000);
         try {
             try {
                 actions.click(bankaPages.evetIconu).perform();
@@ -58,8 +65,7 @@ public class BankaIslemleriDef {
                 js.executeScript("arguments[0].click();", bankaPages.evetIconu2);
             }
         } catch (Exception e) {
-            JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
-            js.executeScript("arguments[0].click();", bankaPages.evetIconu2);
+            bankaPages.evetIconu.click();
         }
 
     }

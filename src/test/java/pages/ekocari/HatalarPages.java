@@ -25,7 +25,7 @@ public class HatalarPages {
     @FindBy(xpath = "//*[@id=\"select2-txtTRCURR-container\"]") public WebElement paraBirimi;
     @FindBy(xpath = "/html/body/span/span/span[1]/input") public WebElement paraBirimiUSD;
 
-    @FindBy(xpath = "//*[@id=\"context-menu\"]/context-menu-content/div/ul/li[2]/a") public WebElement inceleIconuu;
+    @FindBy(xpath = "//*[@id=\"gelecekDeger\"]/div[1]/div[4]/div/div/a[2]") public WebElement satısiadefaturasi;
     @FindBy(xpath = "//*[@id=\"divBtneInvoice\"]/button/span") public WebElement eBelgeButonu;
     @FindBy(xpath = "//*[@id=\"dropdown-menu\"]/a[1]") public WebElement eBelgeGoruntule;
     @FindBy(xpath = "//*[@id=\"notesTableTd\"]") public WebElement acıklamaalanı;

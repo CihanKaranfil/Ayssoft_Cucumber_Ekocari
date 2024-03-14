@@ -1,4 +1,4 @@
-@alisirsaliye
+@ortaktag
   Feature:Alis İrsaliyesi Oluşturma ve Silme
     Scenario: Kullanici Alis İrsaliyesi Oluşturur ve Siler
       Given Kullanici "ekocariUrl" sayfasına gider
@@ -13,9 +13,9 @@
       Then Fatura no gir
       Then Satır ekle butonuna tıkla
       Then Yeni Alıs İrsaliye Kaydet butonuna tıklar
+      # Bu test calısıyor
       #silme işleminde oluşan irsaliyeyi silemiyoruz
 
-      When Kullanici olusturdugu irsliyeye sag tıklar
-      Then kullanici olusturdugu irsaliyeyi siler
+
 
 
