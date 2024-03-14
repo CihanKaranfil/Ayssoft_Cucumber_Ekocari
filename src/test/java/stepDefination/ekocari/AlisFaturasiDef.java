@@ -39,8 +39,17 @@ public class AlisFaturasiDef {
     @When("Cari seçimini yap")
     public void cariSeçiminiYap() throws InterruptedException {
         alisPages.caributton.click();Thread.sleep(1000);
-        alisPages.listedencarisec.click();
-        alisPages.listedencarisec.click();
+        alisPages.listedencarisec2.click();
+        alisPages.listedencarisec2.click();
+
+
+    }
+    @When("Cari seçimini yap2")
+    public void cariSeçiminiYap2() throws InterruptedException {
+        alisPages.caributton.click();Thread.sleep(1000);
+        actions.doubleClick(alisPages.listedencarisec2).perform();
+
+
 
 
     }

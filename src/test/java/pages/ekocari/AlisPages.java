@@ -10,6 +10,8 @@ public class AlisPages {
     @FindBy(xpath = "//*[@id=\"gelecekDeger\"]/div[1]/div[4]/div/div/a[1]") public WebElement alisfaturasi;
     @FindBy(xpath = "//*[@id=\"voucherItemListContainer\"]/wt-table/div/div[1]/div[1]/div/button/i") public WebElement caributton;
     @FindBy(xpath = "//*[@id=\"row0Customergrid\"]") public WebElement listedencarisec;
+    @FindBy(xpath = "//*[@id=\"gridListCustomerSelect\"]/div[2]/table/tbody/tr[1]") public WebElement listedencarisec2;
+    @FindBy(xpath = "(//*[@role='row'])[3]") public WebElement listedencarisec3;
 
     @FindBy(xpath = "//*[@id=\"txtFICHENO\"]") public WebElement faturaNo;
     @FindBy(xpath = "//*[@id=\"voucherItemListContainer\"]/wt-table/div/div[3]/div[1]/div/div[1]/div/button/span") public WebElement satirEkle;

@@ -17,10 +17,10 @@ Feature: Kullanıcı Stok Ekler ve Siler
     Then Yeni stok Kaydet butonuna tıklar
     #kayıt işleminde sıkıntı var tekrar bakılacak
 
-  Scenario:US_02_Kullanıcı Stok Siler
-    Given Kullanici stok menusune tıklar
-    When Kullanici stok kartlar a tıklar
-    #silme işlemini tamamla
+  #Scenario:US_02_Kullanıcı Stok Siler
+  #  Given Kullanici stok menusune tıklar
+  #  When Kullanici stok kartlar a tıklar
+  #  #silme işlemini tamamla
 
 
   

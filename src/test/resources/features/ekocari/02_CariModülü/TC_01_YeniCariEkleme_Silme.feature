@@ -1,4 +1,4 @@
-@ortaktag01
+@ortaktag
 Feature: Kullanici Cari Ekler ve Cari Siler
 
   Background:Kullanıcı Ekocari sayfasına giris yapar

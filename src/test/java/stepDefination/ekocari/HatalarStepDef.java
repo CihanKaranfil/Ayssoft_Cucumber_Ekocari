@@ -70,8 +70,8 @@ public class HatalarStepDef {
     }
 
     @Then("Yeni Satıs Faturasına tıklar")
-    public void yeniSatısFaturasınaTıklar() {
-        hatalarPages.yeniFatura.click();
+    public void yeniSatısFaturasınaTıklar() throws InterruptedException {
+        hatalarPages.yeniFatura.click();Thread.sleep(2000);
     }
 
     @Then("Para birimini döviz olarak belirle")

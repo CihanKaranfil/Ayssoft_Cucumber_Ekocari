@@ -9,7 +9,7 @@ Feature:Satış Faturası Olusturma
     Then Kullanici Satıs Faturaları na tıklar
     When Yeni Fatura butonuna tıkla
     Then Yeni Satıs Faturasına tıklar
-    When Cari seçimini yap
+    When Cari seçimini yap2
     Then Fatura no gir
     Then Satır ekle butonuna tıkla
     And Kaydet butonuna tıklar

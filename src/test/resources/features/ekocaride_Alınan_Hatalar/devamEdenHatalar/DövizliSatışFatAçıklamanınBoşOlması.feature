@@ -1,4 +1,4 @@
-@ortaktag
+@ortaktag33
   Feature: Dövizli Satıs Faturalarında açıklama bolumunun bos olması
     Scenario: Dövizli Satıs Faturalarında açıklama bolumunun gelmemesi
       Given Kullanici "ekocariUrl" sayfasına gider
@@ -9,7 +9,7 @@
       Then Kullanici Satıs Faturaları na tıklar
       When Yeni Fatura butonuna tıkla
       Then Yeni Satıs Faturasına tıklar
-      When Cari seçimini yap
+      When Cari seçimini yap2
       Then Fatura no gir
       Then Para birimini döviz olarak belirle
       Then Satır ekle butonuna tıkla
