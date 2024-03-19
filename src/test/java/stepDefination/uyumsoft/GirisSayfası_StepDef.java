@@ -1,5 +1,6 @@
 package stepDefination.uyumsoft;
 
+import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.openqa.selenium.Keys;
@@ -25,4 +26,5 @@ public class GirisSayfası_StepDef {
         actions.click(girisSayfasiPage.bilgilendirmekapat).perform();
 
     }
+
 }
