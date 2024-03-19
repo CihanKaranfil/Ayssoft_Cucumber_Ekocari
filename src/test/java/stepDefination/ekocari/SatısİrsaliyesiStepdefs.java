@@ -26,15 +26,16 @@ public class SatısİrsaliyesiStepdefs {
     }
 
     @Then("Satış İade İrsaliyesine tıkla")
-    public void satışİadeİrsaliyesineTıkla() {
+    public void satışİadeİrsaliyesineTıkla() throws InterruptedException {
         satısIrsaliyesi.yenisatisİadeIrsaliye.click();
+        Thread.sleep(1000);
 
     }
 
     @Then("Kullanici Satıs Siparislerine tıklar")
-    public void kullaniciSatısSiparislerineTıklar() {
+    public void kullaniciSatısSiparislerineTıklar() throws InterruptedException {
         satısIrsaliyesi.satisSiparisleri.click();
-
+        Thread.sleep(1000);
     }
 
     @Then("Kullanici Satıs Tekliflerine tıklar")

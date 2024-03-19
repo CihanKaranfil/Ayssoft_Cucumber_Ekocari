@@ -1,5 +1,5 @@
 @ortaktag
-Feature:Satış İade Faturası Olusturma
+Feature:Satış İade İrsaliyesi Olusturma
   Scenario: Kullanici Satış İade Faturası Oluşturur
     Given Kullanici "ekocariUrl" sayfasına gider
     When Kullanici e pota ve sifre girer

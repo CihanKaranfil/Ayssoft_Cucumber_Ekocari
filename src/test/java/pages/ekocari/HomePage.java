@@ -16,7 +16,7 @@ public class HomePage {
     @FindBy(xpath = "//*[@id=\"firmaModal\"]/div[3]/button[2]") public WebElement firmasec;
     @FindBy(xpath = "(//*[@class='x-btn ca-footer-btn'])[2]") public WebElement firmasec2;
     @FindBy(xpath = "//*[@id=\"main-menu-navigation\"]/li[2]") public WebElement carisec;
-    @FindBy(xpath = "(//*[@class='x-btn ca-footer-btn'])[2]") public WebElement carisec2;
+    @FindBy(xpath = "//*[@id=\"toast-container\"]/div/div") public WebElement hataYazısı;
     @FindBy(xpath = "//*[@id=\"main-menu-navigation\"]/li[2]/ul/li[1]/a/span") public WebElement carikartsec;
     @FindBy(xpath = "//*[@id=\"gelecekDeger\"]/div[1]/div[4]/div[1]/button") public WebElement yenicari;
     @FindBy(xpath = "//*[@id=\"txtCODE\"]") public WebElement carikodu;

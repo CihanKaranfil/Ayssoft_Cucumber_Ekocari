@@ -59,8 +59,8 @@ public class HatalarStepDef {
     }
 
     @Then("Kullanici satis menusune tıklar")
-    public void kullaniciSatisMenusuneTıklar() {
-        hatalarPages.satisbutonu.click();
+    public void kullaniciSatisMenusuneTıklar() throws InterruptedException {
+        hatalarPages.satisbutonu.click();Thread.sleep(1000);
 
     }
 
