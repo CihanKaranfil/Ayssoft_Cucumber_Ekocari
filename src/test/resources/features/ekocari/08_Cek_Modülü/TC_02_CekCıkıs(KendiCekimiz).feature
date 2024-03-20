@@ -1,5 +1,5 @@
 @ortaktag
-Feature: Cek/Senet İşlemleri
+Feature: Cek İşlemleri
   Scenario: Kullanici Cek Cıkıs Kendi Cekimiz oluşturur
     Given Kullanici "ekocariUrl" sayfasına gider
     When Kullanici e pota ve sifre girer
