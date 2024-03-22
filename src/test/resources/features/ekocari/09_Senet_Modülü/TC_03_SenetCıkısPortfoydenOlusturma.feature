@@ -1,4 +1,4 @@
-@ortaktag11
+@ortaktag1
 Feature:Senet İşlemleri
   Scenario: Kullanici Senet Cıkıs(Portfoyden) oluşturur
     Given Kullanici "ekocariUrl" sayfasına gider

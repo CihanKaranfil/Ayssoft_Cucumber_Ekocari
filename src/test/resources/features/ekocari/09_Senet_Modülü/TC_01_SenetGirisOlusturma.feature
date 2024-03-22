@@ -12,7 +12,7 @@ Feature:Senet İşlemleri
     Then Bodro No gir
     And Senet menüsünde Cari Seç
     And Tl Tutar gir
-    And Senet Kaydet buranuna tıkla
+    And Senet Kaydet butonuna tıkla
     And Senetin kaydedildigini dogrula
     #bu test çalışıyor
 

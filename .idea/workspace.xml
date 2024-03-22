@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="19.03.2024/v-1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/SenetMenusuPages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/SenetStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_03_SenetCıkısPortfoydenOlusturma.feature" afterDir="false" />
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="20.03.2024/v-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/08_Cek_Modülü/TC_01_YeniCekGirisOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/08_Cek_Modülü/TC_01_YeniCekGirisOlusturma.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/08_Cek_Modülü/TC_02_CekCıkıs(KendiCekimiz).feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/08_Cek_Modülü/TC_02_CekCıkıs(KendiCekimiz).feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/08_Cek_Modülü/TC_03_CekCıkıs(Ciro).feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/08_Cek_Modülü/TC_03_CekCıkıs(Ciro).feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/08_Cek_Modülü/TC_04_CekCıkıs(BankaTahsil).feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/08_Cek_Modülü/TC_04_CekCıkıs(BankaTahsil).feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/08_Cek_Modülü/TC_05_CekCıkıs(Diger).feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/08_Cek_Modülü/TC_05_CekCıkıs(Diger).feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_01_SenetGirisOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_01_SenetGirisOlusturma.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_02_SenetCıkısOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_02_SenetCıkısOlusturma.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_03_SenetCıkısPörtfoydenOlusturma.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_04_SenetCıkısBankaTahsilOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_04_SenetCıkısBankaTahsilOlusturma.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_05_SenetCıkısDigerOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_05_SenetCıkısDigerOlusturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_03_SenetCıkısPortfoydenOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_03_SenetCıkısPortfoydenOlusturma.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +245,9 @@
       <workItem from="1710826766527" duration="8876000" />
       <workItem from="1710858268385" duration="14000" />
       <workItem from="1710913316197" duration="9523000" />
-      <workItem from="1710942204750" duration="630000" />
+      <workItem from="1710942204750" duration="1541000" />
+      <workItem from="1710999464623" duration="5159000" />
+      <workItem from="1711089201954" duration="1211000" />
     </task>
     <task id="LOCAL-00001" summary="5.03.2024/v-2">
       <option name="closed" value="true" />
@@ -321,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710837364477</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="20.03.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1710944425511</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1710944425511</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -351,7 +351,8 @@
     <MESSAGE value="14.03.2024/v-1" />
     <MESSAGE value="15.03.2024/v-1" />
     <MESSAGE value="19.03.2024/v-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="19.03.2024/v-1" />
+    <MESSAGE value="20.03.2024/v-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="20.03.2024/v-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
