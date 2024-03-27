@@ -27,4 +27,14 @@ public class GirisSayfası_StepDef {
 
     }
 
+    @When("Keypad menusune tıklar")
+    public void keypadMenusuneTıklar() {
+        girisSayfasiPage.keypadMenusu.click();
+
+    }
+
+    @And("Cıkıs ikonuna tıklar")
+    public void cıkısIkonunaTıklar() {
+        girisSayfasiPage.cıkışİconu.click();
+    }
 }

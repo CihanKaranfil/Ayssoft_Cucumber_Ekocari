@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="20.03.2024/v-1">
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="22.03.2024/v-1">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/01_GirisModülü/TC_04_GirisveCıkısİslemi.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_01_SenetGirisOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_01_SenetGirisOlusturma.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_02_SenetCıkısOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_02_SenetCıkısOlusturma.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_03_SenetCıkısPortfoydenOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_03_SenetCıkısPortfoydenOlusturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/uyumsoft/GirisSayfasiPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/uyumsoft/GirisSayfasiPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/uyumsoft/GirisSayfası_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/uyumsoft/GirisSayfası_StepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/01_GirisModülü/TC_01_KullanıcıGirisi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/01_GirisModülü/TC_01_KullanıcıGirisi.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -247,7 +249,9 @@
       <workItem from="1710913316197" duration="9523000" />
       <workItem from="1710942204750" duration="1541000" />
       <workItem from="1710999464623" duration="5159000" />
-      <workItem from="1711089201954" duration="1211000" />
+      <workItem from="1711089201954" duration="1241000" />
+      <workItem from="1711432190264" duration="4072000" />
+      <workItem from="1711517837150" duration="3039000" />
     </task>
     <task id="LOCAL-00001" summary="5.03.2024/v-2">
       <option name="closed" value="true" />
@@ -321,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710944425511</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="22.03.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1711093660250</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711093660250</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -352,7 +364,8 @@
     <MESSAGE value="15.03.2024/v-1" />
     <MESSAGE value="19.03.2024/v-1" />
     <MESSAGE value="20.03.2024/v-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.03.2024/v-1" />
+    <MESSAGE value="22.03.2024/v-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="22.03.2024/v-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
