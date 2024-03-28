@@ -1,6 +1,6 @@
-@ortaktag
-Feature:Satış Faturası Olusturma
-  Scenario: Kullanici Satış Faturası Oluşturur
+@ortaktag112
+Feature:Satış Faturasını eBelge Olarak Gönderme
+  Scenario: Satış Faturasını eBelge Olarak Gönderme
     Given Kullanici "ekocariUrl" sayfasına gider
     When Kullanici e pota ve sifre girer
     And Kullanici giris butonuna tiklar
@@ -14,5 +14,9 @@ Feature:Satış Faturası Olusturma
     And Satır ekle butonuna tıkla
     And Ürün seçimi yap
     And Kaydet butonuna tıklar
+    Then Olusan satıs faturasında göz ikonuna tıklar  # burda patlıyor
+    And  e-Belge ye tıklar
+    And e-Belge Göndere tıklar
+    And Evet ikonuna tıklar
+    And Belge Basarıyla Sisteme Gonderildi yazısını dogrula
     #bu test calışıyor.
-

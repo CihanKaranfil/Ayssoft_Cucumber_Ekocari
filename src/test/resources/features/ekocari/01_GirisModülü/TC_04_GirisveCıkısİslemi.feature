@@ -1,4 +1,4 @@
-@ortaktag55
+@ortaktag
 Feature: Kullanıcı Login Olur ve Çıkış İslemi yapar
 
   Scenario: Kullanıcı Ekocari Sayfasında Cıkıs Yapar
