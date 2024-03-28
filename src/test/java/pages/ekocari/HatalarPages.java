@@ -29,6 +29,8 @@ public class HatalarPages {
     @FindBy(xpath = "//*[@id=\"divBtneInvoice\"]/button/span") public WebElement eBelgeButonu;
     @FindBy(xpath = "//*[@id=\"dropdown-menu\"]/a[1]") public WebElement eBelgeGoruntule;
     @FindBy(xpath = "//*[@id=\"notesTableTd\"]") public WebElement acıklamaalanı;
+    @FindBy(xpath = "//*[@id=\"gridlines\"]/div[2]/table/tbody/tr[1]/td[2]") public WebElement urunsecimiucnokta;
+    @FindBy(xpath = "//*[@id=\"gridListCustomerSelect\"]/div[2]/table/tbody/tr[1]") public WebElement urunsec;
 
 
 

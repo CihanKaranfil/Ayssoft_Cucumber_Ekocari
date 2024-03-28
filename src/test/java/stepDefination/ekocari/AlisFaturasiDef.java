@@ -57,7 +57,7 @@ public class AlisFaturasiDef {
     @Then("Fatura no gir")
     public void faturaNoGir() {
         alisPages.faturaNo.sendKeys(faker.number().digits(5));
-        alisPages.satirEkle.click();
+
     }
 
     @Then("Satır ekle butonuna tıkla")

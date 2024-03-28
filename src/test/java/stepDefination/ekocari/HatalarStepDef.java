@@ -10,11 +10,13 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import pages.ekocari.HatalarPages;
 import utilities.Driver;
+import utilities.ReusableMethods;
 
 import java.util.Set;
 
-public class HatalarStepDef {
+public class HatalarStepDef extends  ReusableMethods{
     HatalarPages hatalarPages = new HatalarPages();
+
     @Then("Alış İrsaliyelerine tıkla")
     public void alışİrsaliyelerineTıkla() {
         hatalarPages.alisIrsaliyeleri.click();
@@ -128,6 +130,15 @@ public class HatalarStepDef {
     @Then("Yeni Satıs iade Faturasına tıklar")
     public void yeniSatısIadeFaturasınaTıklar() {
         hatalarPages.satısiadefaturasi.click();
+
+    }
+
+    @And("Ürün seçimi yap")
+    public void ürünSeçimiYap() {
+       click(hatalarPages.urunsecimiucnokta);
+
+        actions.doubleClick(hatalarPages.urunsec).perform();
+
 
     }
 }
