@@ -8,10 +8,11 @@ import utilities.Driver;
 public class EBelgePages {
     public EBelgePages(){PageFactory.initElements(Driver.getDriver(), this);}
 
-    @FindBy(xpath = "//*[@id=\"gridList_active_cell\"]/button") public WebElement gozİkonu;
+    @FindBy(xpath = "//*[@id=\"gridList\"]/div[2]/table/tbody/tr[1]/td[1]/button") public WebElement gozİkonu;
     @FindBy(xpath = "//*[@id=\"divBtneInvoice\"]/button") public WebElement eBelge;
     @FindBy(xpath = "//*[@id=\"btneBelgeGonder\"]") public WebElement eBelgeGonder;
-    @FindBy(xpath = "/html/body/div[92]/div/div[6]/button[1]") public WebElement evetButton;
+    @FindBy(xpath = "//*[@class='swal2-confirm swal2-styled swal2-default-outline']") public WebElement evetButton;
+    @FindBy(xpath = "//*[@id=\"toast-container\"]/div/div[2]") public WebElement basarılıYazısı;
 
 
 

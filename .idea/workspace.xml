@@ -4,18 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="27.03.2024/v-1">
-      <change afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/EBelgePages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/eBelgeStepdefs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_01_SatısFaturasıEBelgeGönderme.feature" afterDir="false" />
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="28.03.2024/v-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ekocari/HatalarPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/HatalarPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ekocari/EBelgePages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/EBelgePages.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisFaturasiDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisFaturasiDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/HatalarStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/HatalarStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/01_GirisModülü/TC_04_GirisveCıkısİslemi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/01_GirisModülü/TC_04_GirisveCıkısİslemi.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_01_SatısFaturasıOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_01_SatısFaturasıOlusturma.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_03_SenetCıkısPortfoydenOlusturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_03_SenetCıkısPortfoydenOlusturma.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/eBelgeStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/eBelgeStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_01_SatısFaturasıEBelgeGönderme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_01_SatısFaturasıEBelgeGönderme.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +58,7 @@
   "keyToString": {
     "Cucumber Java.Feature: Alisİrsaliyersi_Düzenlenememesi.executor": "Run",
     "Cucumber Java.Feature: DövizliSatışFatAçıklamanınBoşOlması.executor": "Run",
+    "Cucumber Java.Feature: TC_01_KullanıcıGirisi.executor": "Run",
     "Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme.executor": "Run",
     "Cucumber Java.Feature: TC_01_SatısFaturasıOlusturma.executor": "Run",
     "Cucumber Java.Feature: TC_01_YeniBankaOluşturma.executor": "Run",
@@ -99,15 +95,15 @@
       <recent name="pages.ekocari" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner">
-    <configuration name="Feature: TC_01_SatısFaturasıEBelgeGönderme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme">
+    <configuration name="Feature: TC_01_KullanıcıGirisi" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_01_SatısFaturasıEBelgeGönderme.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/01_GirisModülü/TC_01_KullanıcıGirisi.feature" />
       <option name="GLUE" value="stepDefination.ekocari hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AYSSOFT_CUCUMBER_TEST" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC_01_SatısFaturasıEBelgeGönderme" />
+      <option name="SUGGESTED_NAME" value="Feature: TC_01_KullanıcıGirisi" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -119,14 +115,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: TC_01_SatısFaturasıOlusturma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: TC_01_SatısFaturasıEBelgeGönderme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_01_SatısFaturasıOlusturma.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_01_SatısFaturasıEBelgeGönderme.feature" />
       <option name="GLUE" value="stepDefination.ekocari hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AYSSOFT_CUCUMBER_TEST" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC_01_SatısFaturasıOlusturma" />
+      <option name="SUGGESTED_NAME" value="Feature: TC_01_SatısFaturasıEBelgeGönderme" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -193,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme" />
+        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Feature: TC_01_KullanıcıGirisi" />
         <item itemvalue="Cucumber Java.Feature: TC_02_SatısİadeFaturasıOlusturma" />
         <item itemvalue="Cucumber Java.Feature: TC_02_SenetCıkısOlusturma" />
-        <item itemvalue="Cucumber Java.Feature: TC_01_SatısFaturasıOlusturma" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +253,8 @@
       <workItem from="1711089201954" duration="1241000" />
       <workItem from="1711432190264" duration="4072000" />
       <workItem from="1711517837150" duration="7776000" />
-      <workItem from="1711605085170" duration="7699000" />
+      <workItem from="1711605085170" duration="14178000" />
+      <workItem from="1711690644138" duration="5208000" />
     </task>
     <task id="LOCAL-00001" summary="5.03.2024/v-2">
       <option name="closed" value="true" />
@@ -355,7 +352,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711522944084</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="28.03.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1711622226301</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711622226301</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -388,7 +393,8 @@
     <MESSAGE value="20.03.2024/v-1" />
     <MESSAGE value="22.03.2024/v-1" />
     <MESSAGE value="27.03.2024/v-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="27.03.2024/v-1" />
+    <MESSAGE value="28.03.2024/v-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="28.03.2024/v-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
