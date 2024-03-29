@@ -2,6 +2,7 @@ package stepDefination.ekocari;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
+import org.junit.Assert;
 import pages.ekocari.EBelgePages;
 import utilities.ReusableMethods;
 
@@ -29,5 +30,7 @@ public class eBelgeStepdefs extends ReusableMethods {
 
     @And("Belge Basarıyla Sisteme Gonderildi yazısını dogrula")
     public void belgeBasarıylaSistemeGonderildiYazısınıDogrula() {
+        Assert.assertTrue(eBelgePages.basarılıYazısı.getText().contains("Kayıt Başarıyla Sisteme Eklendi."));
+
     }
 }
