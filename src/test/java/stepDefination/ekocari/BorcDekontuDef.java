@@ -46,12 +46,8 @@ public class BorcDekontuDef {
     @Then("Kullanici Cari seçimini yapar")
     public void kullaniciCariSeçiminiYapar() throws InterruptedException {
        borcDekontu.cariButton.click();Thread.sleep(1000);
-       borcDekontu.secilenCari.click();
-       borcDekontu.secilenCari.click();Thread.sleep(1000);
+       actions.doubleClick(borcDekontu.secilenCari).perform();
 
-      // List<WebElement> webElements = Driver.getDriver().findElements(By.xpath("//*[@class='k-master-row']"));
-
-      // actions.doubleClick(webElements.get(webElements.size()-1)).perform();
     }
 
     @Then("Kullanici Tl Tutar girer")

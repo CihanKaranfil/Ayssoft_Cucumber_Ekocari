@@ -21,8 +21,7 @@ public class AlisIrsaliyesiStepDef {
     @Then("Cari seçimini yap yeni irsaliyede")
     public void cariSeçiminiYapYeniIrsaliyede() {
         alisIrsaliyesi.CariSec.click();
-        alisIrsaliyesi.listedenCariSec.click();
-        alisIrsaliyesi.listedenCariSec.click();
+       actions.doubleClick(alisIrsaliyesi.listedenCariSec).perform();
 
     }
 

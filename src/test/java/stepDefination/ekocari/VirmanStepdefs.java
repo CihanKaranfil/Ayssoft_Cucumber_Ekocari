@@ -18,16 +18,13 @@ public class VirmanStepdefs {
     @Then("Kullanici borclu cari secer")
     public void kullaniciBorcluCariSecer() throws InterruptedException {
         virmanPages.borcluCari.click();Thread.sleep(1000);
-        virmanPages.cariSecme.click();
-        virmanPages.cariSecme.click();
-        //actions.doubleClick(virmanPages.cariSecme);
+        actions.doubleClick(virmanPages.cariSecme2).perform();
     }
 
     @Then("Kullanici alacakli cari secer")
     public void kullaniciAlacakliCariSecer() throws InterruptedException {
         virmanPages.alacaklıCari.click();Thread.sleep(1000);
-        virmanPages.cariSecme.click();
-        virmanPages.cariSecme.click();
+        actions.doubleClick(virmanPages.cariSecme).perform();
     }
 
     @Then("Kullanici virman kaydet butonuna tıklar")

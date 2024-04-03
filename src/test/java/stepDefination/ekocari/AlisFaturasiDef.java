@@ -82,8 +82,7 @@ public class AlisFaturasiDef {
     public void alısFaturasındaCariSeçiminiYap() throws InterruptedException {
         alisPages.cariSec.click();Thread.sleep(1000);
 
-        alisPages.listedenCariSec.click();
-        alisPages.listedenCariSec.click();
+      actions.doubleClick(alisPages.listedenCariSec).perform();
 
 
 

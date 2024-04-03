@@ -30,8 +30,7 @@ public class SenetStepdefs {
     @And("Senet menüsünde Cari Seç")
     public void senetMenüsündeCariSeç() throws InterruptedException {
         cekMenusu.cariucnokta.click();Thread.sleep(2000);
-        cekMenusu.listedenCarisecimi.click();
-        cekMenusu.listedenCarisecimi.click();
+        actions.doubleClick(cekMenusu.listedenCarisecimi).perform();
     }
 
 

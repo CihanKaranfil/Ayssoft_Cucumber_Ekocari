@@ -11,7 +11,7 @@ public class AlisPages {
     @FindBy(xpath = "//*[@id=\"voucherItemListContainer\"]/wt-table/div/div[1]/div[1]/div/button/i") public WebElement caributton;
     @FindBy(xpath = "//*[@id=\"row0Customergrid\"]") public WebElement listedencarisec;
     @FindBy(xpath = "//*[@id=\"gridListCustomerSelect\"]/div[2]/table/tbody/tr[1]") public WebElement listedencarisec2;
-    @FindBy(xpath = "(//*[@role='row'])[3]") public WebElement listedencarisec3;
+    @FindBy(xpath = "//*[@id=\"gridListCustomerSelect\"]/div[2]/table/tbody/tr[1]") public WebElement listedencarisec3;
 
     @FindBy(xpath = "//*[@id=\"txtFICHENO\"]") public WebElement faturaNo;
     @FindBy(xpath = "//*[@id=\"voucherItemListContainer\"]/wt-table/div/div[3]/div[1]/div/div[1]/div/button/span") public WebElement satirEkle;
@@ -21,7 +21,7 @@ public class AlisPages {
     @FindBy(xpath = "//*[@id=\"gelecekDeger\"]/div[1]/div[4]/div/button") public WebElement yeniFatura;
     @FindBy(xpath = "//*[@id=\"gelecekDeger\"]/div[1]/div[4]/div/div/a[2]") public WebElement alisIadeFaturasi;
     @FindBy(xpath = "//*[@id=\"voucherItemListContainer\"]/wt-table/div/div[1]/div[1]/div/button") public WebElement cariSec;
-    @FindBy(xpath = "//*[@id=\"row0Customergrid\"]") public WebElement listedenCariSec;
+    @FindBy(xpath = "//*[@id=\"gridListCustomerSelect\"]/div[2]/table/tbody/tr[1]") public WebElement listedenCariSec;
     @FindBy(xpath = "//*[@id=\"gridlines_active_cell\"]/button") public WebElement urunEkle;
     @FindBy(xpath = "//*[@id=\"gelecekDeger\"]/div[1]/div[2]/div/div/button/span") public WebElement kaydetButton;
     @FindBy(xpath = "//*[@id=\"gridList\"]/div[2]/table/tbody/tr[1]/td[1]/button") public WebElement inceleIconu;

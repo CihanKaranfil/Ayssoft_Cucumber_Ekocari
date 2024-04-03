@@ -3,12 +3,15 @@ package stepDefination.ekocari;
 import com.github.javafaker.Faker;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
+import org.openqa.selenium.interactions.Actions;
 import pages.ekocari.CekMenusuPages;
+import utilities.Driver;
 
 public class CekMenusuStepdefs {
     CekMenusuPages cekMenusu = new CekMenusuPages();
     Faker faker = new Faker();
 
+Actions actions = new Actions(Driver.getDriver());
     @And("Cek Senet menusune tıkla")
     public void cekSenetMenusuneTıkla() {
         cekMenusu.cekSenetMenusu.click();
@@ -38,8 +41,8 @@ public class CekMenusuStepdefs {
     @And("Cek menüsünde Cari Seç")
     public void cekMenüsündeCariSeç() throws InterruptedException {
         cekMenusu.cariucnokta.click();Thread.sleep(2000);
-        cekMenusu.listedenCarisecimi.click();
-        cekMenusu.listedenCarisecimi.click();
+        actions.doubleClick(cekMenusu.listedenCarisecimi).perform();
+
     }
 
     @And("Tl Tutar gir")

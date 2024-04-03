@@ -1,6 +1,6 @@
 @ortaktag
 Feature:Satış İrsaliyesi Olusturma
-  Scenario: Kullanici Satış İade Faturası Oluşturur
+  Scenario: Kullanici Satış  Faturası Oluşturur
     Given Kullanici "ekocariUrl" sayfasına gider
     When Kullanici e pota ve sifre girer
     Then Kullanici giris butonuna tiklar
