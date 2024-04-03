@@ -18,7 +18,7 @@ public class CekMenusuPages {
     @FindBy(xpath = "//*[@id=\"gelecekDeger\"]/div[1]/div[4]/div/div/a[5]") public WebElement cekCıkısDigerbuton;
     @FindBy(xpath = "//*[@id=\"txtROLLNO\"]") public WebElement bordroNo;
     @FindBy(xpath = "//*[@id=\"customerForm\"]/wt-tab-container/wt-tab-content/div[1]/div/div/div[2]/div/div[1]/div[3]/div/button") public WebElement cariucnokta;
-    @FindBy(xpath = "(//*[@id=\"row2grid\"])[1]") public WebElement listedenCarisecimi;
+    @FindBy(xpath = "//*[@id=\"gridListCustomerSelect\"]/div[2]/table/tbody/tr[1]") public WebElement listedenCarisecimi;
     @FindBy(xpath = "//*[@id=\"txtCREDIT\"]") public WebElement tlTutar;
     @FindBy(xpath = "//*[@title=\" [F2]\"]") public WebElement kaydetbuton;
 

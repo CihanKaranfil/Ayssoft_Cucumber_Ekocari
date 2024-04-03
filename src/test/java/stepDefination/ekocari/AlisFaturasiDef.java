@@ -57,7 +57,6 @@ public class AlisFaturasiDef {
     @Then("Fatura no gir")
     public void faturaNoGir() {
         alisPages.faturaNo.sendKeys(faker.number().digits(5));
-
     }
 
     @Then("Satır ekle butonuna tıkla")
@@ -82,8 +81,7 @@ public class AlisFaturasiDef {
     public void alısFaturasındaCariSeçiminiYap() throws InterruptedException {
         alisPages.cariSec.click();Thread.sleep(1000);
 
-        alisPages.listedenCariSec.click();
-        alisPages.listedenCariSec.click();
+      actions.doubleClick(alisPages.listedenCariSec).perform();
 
 
 

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="01.04.2024/v-1">
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="03.04.2024/v-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,7 @@
     &quot;Cucumber Java.Feature: TC_02_KullanıcıGirisHatası.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Feature: TC_02_SatısİadeFaturasıOlusturma.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Feature: TC_02_SenetCıkısOlusturma.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_02_YeniAlısIadeFaturası.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Feature: TC_03_SatısİrsaliyesiOlusturma.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Feature: TC_03_StokEkleme.executor&quot;: &quot;Run&quot;,
     &quot;Cucumber Java.Feature: TC_04_SatısİadeİrsaliyesiOlusturma.executor&quot;: &quot;Run&quot;,
@@ -130,14 +131,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: TC_02_SatısİadeFaturasıOlusturma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: TC_02_YeniAlısIadeFaturası" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_02_SatısİadeFaturasıOlusturma.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_02_YeniAlısIadeFaturası.feature" />
       <option name="GLUE" value="stepDefination.ekocari hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AYSSOFT_CUCUMBER_TEST" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC_02_SatısİadeFaturasıOlusturma" />
+      <option name="SUGGESTED_NAME" value="Feature: TC_02_YeniAlısIadeFaturası" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -187,10 +188,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Feature: TC_02_YeniAlısIadeFaturası" />
         <item itemvalue="Cucumber Java.Scenario: Kullanici Senet Cıkıs(Portfoyden) oluşturur" />
         <item itemvalue="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme" />
         <item itemvalue="Cucumber Java.Feature: TC_01_KullanıcıGirisi" />
-        <item itemvalue="Cucumber Java.Feature: TC_02_SatısİadeFaturasıOlusturma" />
       </list>
     </recent_temporary>
   </component>
@@ -254,6 +255,10 @@
       <workItem from="1711690644138" duration="13203000" />
       <workItem from="1711951248574" duration="6189000" />
       <workItem from="1712037762464" duration="4285000" />
+      <workItem from="1712069894032" duration="33000" />
+      <workItem from="1712124749110" duration="13787000" />
+      <workItem from="1712156062791" duration="20000" />
+      <workItem from="1712156096353" duration="6000" />
     </task>
     <task id="LOCAL-00001" summary="5.03.2024/v-2">
       <option name="closed" value="true" />
@@ -375,7 +380,23 @@
       <option name="project" value="LOCAL" />
       <updated>1711958918029</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="02.04.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1712069920195</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1712069920195</updated>
+    </task>
+    <task id="LOCAL-00017" summary="03.04.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1712156077575</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1712156077575</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -411,7 +432,9 @@
     <MESSAGE value="28.03.2024/v-1" />
     <MESSAGE value="29.03.2024/v-1" />
     <MESSAGE value="01.04.2024/v-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="01.04.2024/v-1" />
+    <MESSAGE value="02.04.2024/v-1" />
+    <MESSAGE value="03.04.2024/v-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="03.04.2024/v-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

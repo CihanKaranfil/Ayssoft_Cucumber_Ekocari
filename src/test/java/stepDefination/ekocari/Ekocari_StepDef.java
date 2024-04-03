@@ -88,7 +88,7 @@ public class Ekocari_StepDef {
     @Then("Kaydet butonuna tıklar")
     public void kaydetButonunaTıklar() throws InterruptedException {
         try {
-            homePage.kaydetbuton.click();
+            homePage.kaydetbuton2.click();
         } catch (Exception e) {
             homePage.kaydetbuton2.click();
         }
