@@ -35,7 +35,7 @@ public class BankaIslemleriDef {
         try {
             bankaPages.bankaKodu.clear();
         } catch (Exception e) {
-            bankaPages.bankaKodu.clear();
+            bankaPages.bankaKodu2.clear();
         }
         bankaPages.bankaKodu.sendKeys(faker.number().digits(3));
     }

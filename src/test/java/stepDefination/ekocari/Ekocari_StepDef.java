@@ -16,6 +16,7 @@ import java.util.List;
 
 public class Ekocari_StepDef {
     Faker faker= new Faker();
+    Actions actions = new Actions(Driver.getDriver());
     @Given("Kullanici {string} sayfasına gider")
     public void kullaniciSayfasınaGider(String arg0) {
         Driver.getDriver().get(ConfigReader.getProperty(arg0));
@@ -49,7 +50,7 @@ public class Ekocari_StepDef {
     @Then("Firmalar bolumunden firma sec")
     public void firmalarBolumundenFirmaSec() throws InterruptedException {
         try {
-            homePage.firmasec.click();
+           actions.click(homePage.firmasec).perform();
         } catch (Exception e) {
             homePage.firmasec2.click();
 
