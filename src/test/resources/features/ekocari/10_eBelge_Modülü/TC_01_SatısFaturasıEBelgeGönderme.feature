@@ -19,5 +19,4 @@ Feature:Satış Faturasını eBelge Olarak Gönderme
     And e-Belge Göndere tıklar
     And Evet ikonuna tıklar
     And Belge Basarıyla Sisteme Gonderildi yazısını dogrula
-
     #bu test calışıyor.Assertions kısmı yapılacak
