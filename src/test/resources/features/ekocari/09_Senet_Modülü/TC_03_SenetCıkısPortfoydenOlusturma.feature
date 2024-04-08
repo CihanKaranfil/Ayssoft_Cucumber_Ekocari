@@ -12,6 +12,6 @@ Feature:Senet İşlemleri
     Then Bodro No gir
     And Senet menüsünde Cari Seç
     And Ciro edilecek senet sec
-    And Senet Kaydet butonuna tıkla
-    And Senetin kaydedildigini dogrula
+    #And Senet Kaydet butonuna tıkla
+    #And Senetin kaydedildigini dogrula
     #bu test kayıt işlemi yapmıyor

@@ -13,6 +13,7 @@ Feature:Alis İade İrsaliyesi Oluşturma
     Then Fatura no gir
     Then Satır ekle butonuna tıkla
     Then Yeni Alıs İrsaliye Kaydet butonuna tıklar
+
     # bu test calışıyor
 
 

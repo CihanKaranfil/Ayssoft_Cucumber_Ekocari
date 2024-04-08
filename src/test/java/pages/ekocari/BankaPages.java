@@ -12,6 +12,7 @@ public class BankaPages {
     @FindBy(xpath = "//*[@id=\"main-menu-navigation\"]/li[7]/ul/li[1]/a") public WebElement bankalarMenusu;
     @FindBy(xpath = "//*[@id=\"gelecekDeger\"]/div[1]/div[4]/div/button") public WebElement yeniBanka;
     @FindBy(xpath = "//*[@id=\"txtCODE\"]") public WebElement bankaKodu;
+    @FindBy(xpath = "//*[@name=\"CODE\"]") public WebElement bankaKodu2;
     @FindBy(xpath = "//*[@id=\"txtDEFINITION_\"]") public WebElement bankaAdi;
     @FindBy(xpath = "//*[@id=\"gelecekDeger\"]/div/div[2]/div/div[2]/button") public WebElement kaydetButton;
     @FindBy(xpath = "//*[@id=\"gridList\"]/div[2]/table/tbody/tr[1]/td[3]") public WebElement olusanBanka;
