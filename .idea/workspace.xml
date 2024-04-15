@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="05.04.2024/v-1">
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="08.04.2024/v-2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +56,7 @@
     "Cucumber Java.Feature: TC_01_KullanıcıGirisi.executor": "Run",
     "Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme.executor": "Run",
     "Cucumber Java.Feature: TC_01_SatısFaturasıOlusturma.executor": "Run",
+    "Cucumber Java.Feature: TC_01_SenetGirisOlusturma.executor": "Run",
     "Cucumber Java.Feature: TC_01_YeniBankaOluşturma.executor": "Run",
     "Cucumber Java.Feature: TC_01_YeniCariEkleme_Silme.executor": "Run",
     "Cucumber Java.Feature: TC_02_CariyeBorcDekOluştorma_Silme.executor": "Run",
@@ -94,7 +95,7 @@
       <recent name="pages.ekocari" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: TC_04_AlısİadeİrsaliyesiOlusturma">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Feature: TC_01_SatısFaturasıEBelgeGönderme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_01_SatısFaturasıEBelgeGönderme.feature" />
@@ -114,14 +115,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: TC_02_SatısİadeFaturasıOlusturma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: TC_01_SenetGirisOlusturma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/05_Satıs_Modülü/TC_02_SatısİadeFaturasıOlusturma.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_01_SenetGirisOlusturma.feature" />
       <option name="GLUE" value="stepDefination.ekocari hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AYSSOFT_CUCUMBER_TEST" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC_02_SatısİadeFaturasıOlusturma" />
+      <option name="SUGGESTED_NAME" value="Feature: TC_01_SenetGirisOlusturma" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -155,6 +156,7 @@
     <configuration name="Feature: TC_04_AlısİadeİrsaliyesiOlusturma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_04_AlısİadeİrsaliyesiOlusturma.feature" />
+      <option name="GLUE" value="stepDefination.ekocari hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AYSSOFT_CUCUMBER_TEST" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
@@ -187,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: TC_04_AlısİadeİrsaliyesiOlusturma" />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme" />
+        <item itemvalue="Cucumber Java.Feature: TC_01_SenetGirisOlusturma" />
+        <item itemvalue="Cucumber Java.Feature: TC_04_AlısİadeİrsaliyesiOlusturma" />
         <item itemvalue="Cucumber Java.Feature: TC_03_SenetCıkısPortfoydenOlusturma" />
-        <item itemvalue="Cucumber Java.Feature: TC_02_SatısİadeFaturasıOlusturma" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +264,8 @@
       <workItem from="1712156178928" duration="54000" />
       <workItem from="1712210998272" duration="6773000" />
       <workItem from="1712297119294" duration="9226000" />
-      <workItem from="1712556527005" duration="1514000" />
+      <workItem from="1712556527005" duration="5757000" />
+      <workItem from="1713162033698" duration="4987000" />
     </task>
     <task id="LOCAL-00001" summary="5.03.2024/v-2">
       <option name="closed" value="true" />
@@ -432,7 +435,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712320557867</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="08.04.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1712565244123</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1712565244123</updated>
+    </task>
+    <task id="LOCAL-00023" summary="08.04.2024/v-2">
+      <option name="closed" value="true" />
+      <created>1712565425756</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1712565425757</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +491,9 @@
     <MESSAGE value="03.04.2024/v-1" />
     <MESSAGE value="04.04.2024/v-1" />
     <MESSAGE value="05.04.2024/v-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="05.04.2024/v-1" />
+    <MESSAGE value="08.04.2024/v-1" />
+    <MESSAGE value="08.04.2024/v-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="08.04.2024/v-2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
