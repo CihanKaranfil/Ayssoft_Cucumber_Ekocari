@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="08.04.2024/v-2">
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="15.04.2024/v-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_02_SAtısİrsaliyesiEBelgeGönderme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_02_SAtısİrsaliyesiEBelgeGönderme.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,53 +51,74 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Cucumber Java.Feature: Alisİrsaliyersi_Düzenlenememesi.executor": "Run",
-    "Cucumber Java.Feature: DövizliSatışFatAçıklamanınBoşOlması.executor": "Run",
-    "Cucumber Java.Feature: TC_01_KullanıcıGirisi.executor": "Run",
-    "Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme.executor": "Run",
-    "Cucumber Java.Feature: TC_01_SatısFaturasıOlusturma.executor": "Run",
-    "Cucumber Java.Feature: TC_01_SenetGirisOlusturma.executor": "Run",
-    "Cucumber Java.Feature: TC_01_YeniBankaOluşturma.executor": "Run",
-    "Cucumber Java.Feature: TC_01_YeniCariEkleme_Silme.executor": "Run",
-    "Cucumber Java.Feature: TC_02_CariyeBorcDekOluştorma_Silme.executor": "Run",
-    "Cucumber Java.Feature: TC_02_KullanıcıGirisHatası.executor": "Run",
-    "Cucumber Java.Feature: TC_02_SatısİadeFaturasıOlusturma.executor": "Run",
-    "Cucumber Java.Feature: TC_02_SenetCıkısOlusturma.executor": "Run",
-    "Cucumber Java.Feature: TC_02_YeniAlısIadeFaturası.executor": "Run",
-    "Cucumber Java.Feature: TC_03_SatısİrsaliyesiOlusturma.executor": "Run",
-    "Cucumber Java.Feature: TC_03_SenetCıkısPortfoydenOlusturma.executor": "Run",
-    "Cucumber Java.Feature: TC_03_StokEkleme.executor": "Run",
-    "Cucumber Java.Feature: TC_04_AlısİadeİrsaliyesiOlusturma.executor": "Run",
-    "Cucumber Java.Feature: TC_04_SatısİadeİrsaliyesiOlusturma.executor": "Run",
-    "Cucumber Java.Feature: TC_05_Depo FişiOlusturma.executor": "Run",
-    "Cucumber Java.Feature: TC_05_SatısSiparisleriOlusturma.executor": "Run",
-    "Cucumber Java.Feature: TC_07_SayımEksigiFisi.executor": "Run",
-    "Cucumber Java.Feature: TC_09_YeniKasaOluşturma_Silme.executor": "Run",
-    "Cucumber Java.Scenario: Kullanici Senet Cıkıs(Portfoyden) oluşturur.executor": "Run",
-    "Cucumber Java.Scenario: Kullanıcı Sifreyi yanlıs girerek giris yapamaz.executor": "Run",
-    "Cucumber Java.Scenario: Kullanıcı ePosta yanlış girer giris yapamaz.executor": "Run",
-    "JUnit.Runner.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "cihann",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "editor.preferences.gutterIcons",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: Alisİrsaliyersi_Düzenlenememesi.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: DövizliSatışFatAçıklamanınBoşOlması.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_01_KullaniciGirişYapabilmeli.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_01_KullanıcıGirisi.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_01_SatısFaturasıOlusturma.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_01_SenetGirisOlusturma.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_01_YeniBankaOluşturma.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_01_YeniCariEkleme_Silme.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_02_CariyeBorcDekOluştorma_Silme.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_02_KullanıcıGirisHatası.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_02_SatısİadeFaturasıOlusturma.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_02_SenetCıkısOlusturma.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_02_YeniAlısIadeFaturası.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_02_eFaturaOluştrma.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_03_SatısİrsaliyesiOlusturma.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_03_SenetCıkısPortfoydenOlusturma.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_03_StokEkleme.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_04_AlısİadeİrsaliyesiOlusturma.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_04_SatısİadeİrsaliyesiOlusturma.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_05_Depo FişiOlusturma.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_05_SatısSiparisleriOlusturma.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_07_SayımEksigiFisi.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: TC_09_YeniKasaOluşturma_Silme.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Kullanici Senet Cıkıs(Portfoyden) oluşturur.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Kullanıcı Sifreyi yanlıs girerek giris yapamaz.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Kullanıcı ePosta yanlış girer giris yapamaz.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;cihann&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="pages.ekocari" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.Runner">
+    <configuration name="Feature: TC_01_KullaniciGirişYapabilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/uyumsoft/TC_01_KullaniciGirişYapabilmeli.feature" />
+      <option name="GLUE" value="stepDefination.ekocari hooks stepDefination.uyumsoft" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="AYSSOFT_CUCUMBER_TEST" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: TC_01_KullaniciGirişYapabilmeli" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: TC_01_SatısFaturasıEBelgeGönderme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_01_SatısFaturasıEBelgeGönderme.feature" />
@@ -134,33 +157,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: TC_03_SenetCıkısPortfoydenOlusturma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: TC_02_eFaturaOluştrma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_03_SenetCıkısPortfoydenOlusturma.feature" />
-      <option name="GLUE" value="stepDefination.ekocari hooks" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/uyumsoft/TC_02_eFaturaOluştrma.feature" />
+      <option name="GLUE" value="stepDefination.ekocari hooks stepDefination.uyumsoft" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AYSSOFT_CUCUMBER_TEST" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC_03_SenetCıkısPortfoydenOlusturma" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: TC_04_AlısİadeİrsaliyesiOlusturma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/04_Alıs_Modülü/TC_04_AlısİadeİrsaliyesiOlusturma.feature" />
-      <option name="GLUE" value="stepDefination.ekocari hooks" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AYSSOFT_CUCUMBER_TEST" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC_04_AlısİadeİrsaliyesiOlusturma" />
+      <option name="SUGGESTED_NAME" value="Feature: TC_02_eFaturaOluştrma" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -191,9 +195,9 @@
       <list>
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme" />
+        <item itemvalue="Cucumber Java.Feature: TC_01_KullaniciGirişYapabilmeli" />
+        <item itemvalue="Cucumber Java.Feature: TC_02_eFaturaOluştrma" />
         <item itemvalue="Cucumber Java.Feature: TC_01_SenetGirisOlusturma" />
-        <item itemvalue="Cucumber Java.Feature: TC_04_AlısİadeİrsaliyesiOlusturma" />
-        <item itemvalue="Cucumber Java.Feature: TC_03_SenetCıkısPortfoydenOlusturma" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +269,9 @@
       <workItem from="1712210998272" duration="6773000" />
       <workItem from="1712297119294" duration="9226000" />
       <workItem from="1712556527005" duration="5757000" />
-      <workItem from="1713162033698" duration="4987000" />
+      <workItem from="1713162033698" duration="7298000" />
+      <workItem from="1713247630523" duration="1182000" />
+      <workItem from="1713248824414" duration="3826000" />
     </task>
     <task id="LOCAL-00001" summary="5.03.2024/v-2">
       <option name="closed" value="true" />
@@ -451,7 +457,23 @@
       <option name="project" value="LOCAL" />
       <updated>1712565425757</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="08.04.2024/v-2">
+      <option name="closed" value="true" />
+      <created>1713180180335</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1713180180335</updated>
+    </task>
+    <task id="LOCAL-00025" summary="15.04.2024/v-2">
+      <option name="closed" value="true" />
+      <created>1713180212055</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1713180212055</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +515,8 @@
     <MESSAGE value="05.04.2024/v-1" />
     <MESSAGE value="08.04.2024/v-1" />
     <MESSAGE value="08.04.2024/v-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="08.04.2024/v-2" />
+    <MESSAGE value="15.04.2024/v-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="15.04.2024/v-2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
