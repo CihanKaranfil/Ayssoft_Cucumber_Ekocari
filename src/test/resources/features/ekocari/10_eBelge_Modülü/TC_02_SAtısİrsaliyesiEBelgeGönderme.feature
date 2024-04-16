@@ -1,3 +1,0 @@
-@ortaktag
-
-  #bu test yapılmadı
