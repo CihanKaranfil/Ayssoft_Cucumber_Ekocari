@@ -30,6 +30,7 @@ public class Ekocari_StepDef {
 
     }
 
+
     @Then("Kullanici giris butonuna tiklar")
     public void kullaniciGirisButonunaTiklar() throws InterruptedException {
 

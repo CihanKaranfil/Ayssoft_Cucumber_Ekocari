@@ -23,6 +23,12 @@ public class EkocariStepDefinotions {
         ekocariPage.sifre.sendKeys(ConfigReader.getProperty("sifre"), Keys.ENTER);
 
     }
+    @When("Kullanici e pota ve sifre girer \\(yedek)")
+    public void kullaniciEPotaVeSifreGirerYedek() {
+        ekocariPage.eposta.sendKeys(ConfigReader.getProperty("eposta2"));
+        ekocariPage.sifre.sendKeys(ConfigReader.getProperty("sifre2"), Keys.ENTER);
+
+    }
     @Then("Kullanici giris butonuna tıklar")
     public void kullanici_giris_butonuna_tıklar() {
 
@@ -73,4 +79,6 @@ public class EkocariStepDefinotions {
     public void kullaniciSifreyiYanlısGirer() {
         ekocariPage.sifre.sendKeys("555555", Keys.ENTER);
     }
+
+
 }

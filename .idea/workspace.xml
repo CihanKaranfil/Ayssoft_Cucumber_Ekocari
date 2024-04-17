@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="15.04.2024/v-1">
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="16.04.2024/v-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/EkocariStepDefinotions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/EkocariStepDefinotions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/Ekocari_StepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/Ekocari_StepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/07_Banka_Modülü/TC_01_YeniBankaOluşturma.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/07_Banka_Modülü/TC_01_YeniBankaOluşturmaveSilme.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_01_SatısFaturasıEBelgeGönderme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_01_SatısFaturasıEBelgeGönderme.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_02_SAtısİrsaliyesiEBelgeGönderme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_02_SAtısİrsaliyesiEBelgeGönderme.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +103,7 @@
       <recent name="pages.ekocari" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner">
+  <component name="RunManager" selected="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme">
     <configuration name="Feature: TC_01_KullaniciGirişYapabilmeli" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/uyumsoft/TC_01_KullaniciGirişYapabilmeli.feature" />
@@ -138,14 +142,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: TC_01_SenetGirisOlusturma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: TC_01_YeniBankaOluşturma" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/09_Senet_Modülü/TC_01_SenetGirisOlusturma.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/07_Banka_Modülü/TC_01_YeniBankaOluşturma.feature" />
       <option name="GLUE" value="stepDefination.ekocari hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="AYSSOFT_CUCUMBER_TEST" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC_01_SenetGirisOlusturma" />
+      <option name="SUGGESTED_NAME" value="Feature: TC_01_YeniBankaOluşturma" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -193,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme" />
+        <item itemvalue="Cucumber Java.Feature: TC_01_YeniBankaOluşturma" />
+        <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: TC_01_KullaniciGirişYapabilmeli" />
         <item itemvalue="Cucumber Java.Feature: TC_02_eFaturaOluştrma" />
-        <item itemvalue="Cucumber Java.Feature: TC_01_SenetGirisOlusturma" />
       </list>
     </recent_temporary>
   </component>
@@ -271,7 +275,8 @@
       <workItem from="1712556527005" duration="5757000" />
       <workItem from="1713162033698" duration="7298000" />
       <workItem from="1713247630523" duration="1182000" />
-      <workItem from="1713248824414" duration="3826000" />
+      <workItem from="1713248824414" duration="5872000" />
+      <workItem from="1713334004015" duration="6888000" />
     </task>
     <task id="LOCAL-00001" summary="5.03.2024/v-2">
       <option name="closed" value="true" />
@@ -473,7 +478,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713180212055</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="16.04.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1713273809693</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1713273809693</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +529,8 @@
     <MESSAGE value="08.04.2024/v-1" />
     <MESSAGE value="08.04.2024/v-2" />
     <MESSAGE value="15.04.2024/v-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="15.04.2024/v-2" />
+    <MESSAGE value="16.04.2024/v-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="16.04.2024/v-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
