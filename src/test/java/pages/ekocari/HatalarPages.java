@@ -31,6 +31,7 @@ public class HatalarPages {
     @FindBy(xpath = "//*[@id=\"notesTableTd\"]") public WebElement acıklamaalanı;
     @FindBy(xpath = "//*[@id=\"gridlines\"]/div[2]/table/tbody/tr[1]/td[2]") public WebElement urunsecimiucnokta;
     @FindBy(xpath = "//*[@id=\"gridListCustomerSelect\"]/div[2]/table/tbody/tr[1]") public WebElement urunsec;
+    @FindBy(xpath = "//*[@id=\"gridlines\"]/div[2]/table/tbody/tr/td[6]") public WebElement birimFiyat;
 
 
 
