@@ -141,4 +141,23 @@ public class HatalarStepDef extends  ReusableMethods{
 
 
     }
+
+    @And("Birim fiyatı gir")
+    public void birimFiyatıGir() {
+        hatalarPages.birimFiyat.click();
+        try {
+            hatalarPages.birimFiyat.sendKeys("100");
+        } catch (Exception e) {
+            hatalarPages.birimFiyat.sendKeys("100");
+        }
+    }
+
+    @And("İrsaliyenin oluşmasını bekle")
+    public void irsaliyeninOluşmasınıBekle() throws InterruptedException {
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            Thread.sleep(5000);
+        }
+    }
 }

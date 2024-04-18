@@ -13,10 +13,10 @@ Feature:Satış Faturasını eBelge Olarak Gönderme
     And Fatura no gir
     And Satır ekle butonuna tıkla
     And Ürün seçimi yap
-    And Kaydet butonuna tıklar
-    Then Olusan satıs faturasında göz ikonuna tıklar
-    And  e-Belge ye tıklar
-    And e-Belge Göndere tıklar
-    And Evet ikonuna tıklar
-    And Belge Basarıyla Sisteme Gonderildi yazısını dogrula
-    #bu test calışıyor.Assertions kısmı yapılacak
+   And Kaydet butonuna tıklar
+   Then Olusan satıs faturasında göz ikonuna tıklar
+   And  e-Belge ye tıklar
+   And e-Belge Göndere tıklar
+   And Evet ikonuna tıklar
+   And Belge Basarıyla Sisteme Gonderildi yazısını dogrula
+   #bu test calışıyor.Assertions kısmı yapılacak
