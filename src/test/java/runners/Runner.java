@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         monochrome = true,
         features = "./src/test/resources/features",
                   glue = {"stepDefination","hooks"},
-                  tags = "@ortaktag11",
+                  tags = "@ortaktag",
                   dryRun = false
 )
 
