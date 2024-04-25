@@ -12,10 +12,11 @@ public class AlısSiparisStepdefs {
 
 
     }
-
     @When("Yeni Sipariş Oluştura tıkla")
     public void yeniSiparişOluşturaTıkla() {
         alisSiparis.yeniSiparis.click();
 
+
     }
 }
+    
