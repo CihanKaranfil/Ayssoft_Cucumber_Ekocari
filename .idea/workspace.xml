@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="19.04.2024/v-1">
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="22.04.2024/v-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlısSiparisStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlısSiparisStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_02_SAtısİrsaliyesiEBelgeGönderme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_02_SAtısİrsaliyesiEBelgeGönderme.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +92,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.gutterIcons&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -194,9 +196,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Feature: DövizliSatışFatAçıklamanınBoşOlması" />
         <item itemvalue="Cucumber Java.Feature: TC_02_SAtısİrsaliyesiEBelgeGönderme" />
         <item itemvalue="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme" />
+        <item itemvalue="Cucumber Java.Feature: DövizliSatışFatAçıklamanınBoşOlması" />
         <item itemvalue="Cucumber Java.Feature: TC_01_YeniBankaOluşturmaveSilme" />
       </list>
     </recent_temporary>
@@ -276,7 +278,11 @@
       <workItem from="1713420271429" duration="13565000" />
       <workItem from="1713506346051" duration="5561000" />
       <workItem from="1713538714211" duration="37000" />
-      <workItem from="1713765789257" duration="1833000" />
+      <workItem from="1713765789257" duration="7783000" />
+      <workItem from="1713938779751" duration="2167000" />
+      <workItem from="1713942532175" duration="1010000" />
+      <workItem from="1714026599032" duration="902000" />
+      <workItem from="1714028283891" duration="650000" />
     </task>
     <task id="LOCAL-00001" summary="5.03.2024/v-2">
       <option name="closed" value="true" />
@@ -510,7 +516,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713538732209</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="22.04.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1713778972256</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1713778972256</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -532,7 +546,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="v-1" />
     <MESSAGE value="5.03.2024/v-2" />
     <MESSAGE value="6.03.2024/v-2" />
     <MESSAGE value="11.03.2024/v-1" />
@@ -557,7 +570,8 @@
     <MESSAGE value="17.04.2024/v-1" />
     <MESSAGE value="18.04.2024/v-1" />
     <MESSAGE value="19.04.2024/v-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="19.04.2024/v-1" />
+    <MESSAGE value="22.04.2024/v-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="22.04.2024/v-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
