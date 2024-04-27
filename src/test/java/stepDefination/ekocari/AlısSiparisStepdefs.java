@@ -10,6 +10,8 @@ public class AlısSiparisStepdefs {
     public void alışSiparişlerineTıkla() {
         alisSiparis.alisSiparisleri.click();
 
+
+
     }
     @When("Yeni Sipariş Oluştura tıkla")
     public void yeniSiparişOluşturaTıkla() {
