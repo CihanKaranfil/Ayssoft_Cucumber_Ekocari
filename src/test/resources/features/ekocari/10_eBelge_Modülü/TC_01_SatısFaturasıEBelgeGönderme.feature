@@ -8,6 +8,7 @@ Feature:Satış Faturasını eBelge Olarak Gönderme
     And Kullanici satis menusune tıklar
     And Kullanici Satıs Faturaları na tıklar
     And Yeni Fatura butonuna tıkla
+
     Then Yeni Satıs Faturasına tıklar
     When Cari seçimini yap2
     And Fatura no gir
