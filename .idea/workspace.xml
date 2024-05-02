@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="27.04.2024/v-1">
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="30.04.2024/v-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/uyumsoft/TC_01_KullaniciGirişYapabilmeli.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/uyumsoft/TC_01_KullaniciGirişYapabilmeli.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -279,7 +280,10 @@
       <workItem from="1714111739597" duration="1432000" />
       <workItem from="1714115329958" duration="3716000" />
       <workItem from="1714227362802" duration="1178000" />
-      <workItem from="1714371623035" duration="6701000" />
+      <workItem from="1714371623035" duration="6741000" />
+      <workItem from="1714457603942" duration="4921000" />
+      <workItem from="1714489171716" duration="52000" />
+      <workItem from="1714630166762" duration="3717000" />
     </task>
     <task id="LOCAL-00001" summary="5.03.2024/v-2">
       <option name="closed" value="true" />
@@ -545,7 +549,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714227404328</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="29.04.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1714400042175</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1714400042175</updated>
+    </task>
+    <task id="LOCAL-00035" summary="30.04.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1714489186119</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1714489186119</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,6 +573,7 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="dependencySupport" implementationName="java:io.cucumber:cucumber-java" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.feature" />
     <option featureType="dependencySupport" implementationName="java:org.seleniumhq.selenium:selenium-java" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -567,8 +588,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="11.03.2024/v-1" />
-    <MESSAGE value="13.03.2024/v-1" />
     <MESSAGE value="14.03.2024/v-1" />
     <MESSAGE value="15.03.2024/v-1" />
     <MESSAGE value="19.03.2024/v-1" />
@@ -592,7 +611,9 @@
     <MESSAGE value="22.04.2024/v-1" />
     <MESSAGE value="26.04.2024/v-1" />
     <MESSAGE value="27.04.2024/v-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="27.04.2024/v-1" />
+    <MESSAGE value="29.04.2024/v-1" />
+    <MESSAGE value="30.04.2024/v-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="30.04.2024/v-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
