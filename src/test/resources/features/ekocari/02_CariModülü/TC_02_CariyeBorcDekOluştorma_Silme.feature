@@ -20,4 +20,5 @@
     Scenario:Kullanici oluşturduğu borç dekondunu siler
       Given Kullanici Cari hareketlere tıklar
       When Kullanici olusturdugu borç dekontuna sag tıklar
+
       #Then Kullanici sil iconuna tıklayıp dekontu siler

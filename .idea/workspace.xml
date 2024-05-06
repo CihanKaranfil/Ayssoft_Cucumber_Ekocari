@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="30.04.2024/v-1">
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="02.05.2024/v-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/uyumsoft/TC_01_KullaniciGirişYapabilmeli.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/uyumsoft/TC_01_KullaniciGirişYapabilmeli.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,6 +284,15 @@
       <workItem from="1714457603942" duration="4921000" />
       <workItem from="1714489171716" duration="52000" />
       <workItem from="1714630166762" duration="3717000" />
+      <workItem from="1714648135419" duration="2283000" />
+      <workItem from="1714715909901" duration="1717000" />
+      <workItem from="1714723894697" duration="2440000" />
+      <workItem from="1714748242196" duration="12000" />
+      <workItem from="1714748295891" duration="29000" />
+      <workItem from="1714975761649" duration="5214000" />
+      <workItem from="1714989431275" duration="86000" />
+      <workItem from="1714989542620" duration="55000" />
+      <workItem from="1714989604805" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="5.03.2024/v-2">
       <option name="closed" value="true" />
@@ -565,7 +574,23 @@
       <option name="project" value="LOCAL" />
       <updated>1714489186119</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="02.05.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1714648197417</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1714648197417</updated>
+    </task>
+    <task id="LOCAL-00037" summary="02.05.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1714748319222</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1714748319222</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,7 +613,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="14.03.2024/v-1" />
     <MESSAGE value="15.03.2024/v-1" />
     <MESSAGE value="19.03.2024/v-1" />
     <MESSAGE value="20.03.2024/v-1" />
@@ -613,7 +637,8 @@
     <MESSAGE value="27.04.2024/v-1" />
     <MESSAGE value="29.04.2024/v-1" />
     <MESSAGE value="30.04.2024/v-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="30.04.2024/v-1" />
+    <MESSAGE value="02.05.2024/v-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="02.05.2024/v-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
