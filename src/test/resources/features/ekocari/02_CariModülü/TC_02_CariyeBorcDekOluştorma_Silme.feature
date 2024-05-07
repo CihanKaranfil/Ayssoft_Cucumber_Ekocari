@@ -16,7 +16,6 @@
       Then Kullanici Cari seçimini yapar
       Then Kullanici Tl Tutar girer
       Then Kullanici Borc Dekontunu kaydeder
-
     Scenario:Kullanici oluşturduğu borç dekondunu siler
       Given Kullanici Cari hareketlere tıklar
       When Kullanici olusturdugu borç dekontuna sag tıklar
