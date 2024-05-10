@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="07.05.2024/v-1">
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="09.05.2024/v-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/01_GirisModülü/TC_01_KullanıcıGirisi.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/01_GirisModülü/TC_01_KullanıcıGirisi.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisFaturasiDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisFaturasiDef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,7 @@
       <recent name="pages.ekocari" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: TC_02_CariyeBorcDekOluştorma_Silme">
+  <component name="RunManager" selected="JUnit.Runner">
     <configuration name="Feature: TC_01_SatısFaturasıEBelgeGönderme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_01_SatısFaturasıEBelgeGönderme.feature" />
@@ -192,8 +192,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: TC_02_CariyeBorcDekOluştorma_Silme" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Feature: TC_02_CariyeBorcDekOluştorma_Silme" />
       </list>
     </recent_temporary>
   </component>
@@ -300,7 +300,11 @@
       <workItem from="1715147840663" duration="2416000" />
       <workItem from="1715151520712" duration="52000" />
       <workItem from="1715151580946" duration="73000" />
-      <workItem from="1715151663483" duration="4400000" />
+      <workItem from="1715151663483" duration="5043000" />
+      <workItem from="1715234093034" duration="8169000" />
+      <workItem from="1715320905698" duration="3552000" />
+      <workItem from="1715326419521" duration="1520000" />
+      <workItem from="1715338739023" duration="680000" />
     </task>
     <task id="LOCAL-00001" summary="5.03.2024/v-2">
       <option name="closed" value="true" />
@@ -614,7 +618,31 @@
       <option name="project" value="LOCAL" />
       <updated>1715081704628</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="07.05.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1715171014727</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1715171014727</updated>
+    </task>
+    <task id="LOCAL-00041" summary="08.05.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1715171039253</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1715171039253</updated>
+    </task>
+    <task id="LOCAL-00042" summary="09.05.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1715260512238</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1715260512238</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,8 +665,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="19.03.2024/v-1" />
-    <MESSAGE value="20.03.2024/v-1" />
     <MESSAGE value="22.03.2024/v-1" />
     <MESSAGE value="27.03.2024/v-1" />
     <MESSAGE value="28.03.2024/v-1" />
@@ -662,7 +688,9 @@
     <MESSAGE value="30.04.2024/v-1" />
     <MESSAGE value="02.05.2024/v-1" />
     <MESSAGE value="07.05.2024/v-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="07.05.2024/v-1" />
+    <MESSAGE value="08.05.2024/v-1" />
+    <MESSAGE value="09.05.2024/v-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="09.05.2024/v-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
