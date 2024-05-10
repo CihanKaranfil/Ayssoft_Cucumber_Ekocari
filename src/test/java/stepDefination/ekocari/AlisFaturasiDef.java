@@ -49,9 +49,6 @@ public class AlisFaturasiDef {
         alisPages.caributton.click();Thread.sleep(1000);
         actions.doubleClick(alisPages.listedencarisec2).perform();
 
-
-
-
     }
 
     @Then("Fatura no gir")
