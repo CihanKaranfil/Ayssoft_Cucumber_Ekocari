@@ -24,12 +24,9 @@ public class Ekocari_StepDef {
     HomePage homePage = new HomePage();
     @When("Kullanici e pota ve sifre girer")
     public void kullaniciEPotaVeSifreGirer()  {
-
         homePage.eposta.sendKeys(ConfigReader.getProperty("eposta"));
         homePage.sifre.sendKeys(ConfigReader.getProperty("sifre"));
-
     }
-
 
     @Then("Kullanici giris butonuna tiklar")
     public void kullaniciGirisButonunaTiklar() throws InterruptedException {

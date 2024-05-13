@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="09.05.2024/v-1">
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="10.05.2024/v-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisFaturasiDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisFaturasiDef.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,6 +192,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme" />
         <item itemvalue="Cucumber Java.Feature: TC_02_CariyeBorcDekOluştorma_Silme" />
       </list>
     </recent_temporary>
@@ -305,6 +305,11 @@
       <workItem from="1715320905698" duration="3552000" />
       <workItem from="1715326419521" duration="1520000" />
       <workItem from="1715338739023" duration="680000" />
+      <workItem from="1715351336792" duration="677000" />
+      <workItem from="1715407781629" duration="509000" />
+      <workItem from="1715410365945" duration="1473000" />
+      <workItem from="1715412130703" duration="1222000" />
+      <workItem from="1715581078821" duration="1966000" />
     </task>
     <task id="LOCAL-00001" summary="5.03.2024/v-2">
       <option name="closed" value="true" />
@@ -642,7 +647,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715260512238</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="10.05.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1715351366875</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1715351366875</updated>
+    </task>
+    <task id="LOCAL-00044" summary="10.05.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1715351464999</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1715351464999</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,7 +686,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="22.03.2024/v-1" />
     <MESSAGE value="27.03.2024/v-1" />
     <MESSAGE value="28.03.2024/v-1" />
     <MESSAGE value="29.03.2024/v-1" />
@@ -690,7 +710,8 @@
     <MESSAGE value="07.05.2024/v-1" />
     <MESSAGE value="08.05.2024/v-1" />
     <MESSAGE value="09.05.2024/v-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="09.05.2024/v-1" />
+    <MESSAGE value="10.05.2024/v-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.05.2024/v-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
