@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="10.05.2024/v-1">
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="13.05.2024/v-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -309,7 +310,9 @@
       <workItem from="1715407781629" duration="509000" />
       <workItem from="1715410365945" duration="1473000" />
       <workItem from="1715412130703" duration="1222000" />
-      <workItem from="1715581078821" duration="1966000" />
+      <workItem from="1715581078821" duration="3099000" />
+      <workItem from="1715592726067" duration="6289000" />
+      <workItem from="1715666381550" duration="7508000" />
     </task>
     <task id="LOCAL-00001" summary="5.03.2024/v-2">
       <option name="closed" value="true" />
@@ -663,7 +666,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715351464999</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="13.05.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1715591667651</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1715591667651</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -686,7 +697,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="27.03.2024/v-1" />
     <MESSAGE value="28.03.2024/v-1" />
     <MESSAGE value="29.03.2024/v-1" />
     <MESSAGE value="01.04.2024/v-1" />
@@ -711,7 +721,8 @@
     <MESSAGE value="08.05.2024/v-1" />
     <MESSAGE value="09.05.2024/v-1" />
     <MESSAGE value="10.05.2024/v-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="10.05.2024/v-1" />
+    <MESSAGE value="13.05.2024/v-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="13.05.2024/v-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
