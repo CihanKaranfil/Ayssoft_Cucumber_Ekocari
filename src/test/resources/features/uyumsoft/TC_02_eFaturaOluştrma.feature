@@ -8,7 +8,9 @@
       Then e-Fatura ve e-Arsiv Fatura Oluştura tıkla
       Then Alıcı ünvan ile arama yap ve alıcı sec
       Then e-Fatura kayıt butonuna tıkla
-      #bu testin devsmı yapılacak
+
+      #bu testin devamı yapılacak
+      # ürün bilgisi yok
 
 
 
