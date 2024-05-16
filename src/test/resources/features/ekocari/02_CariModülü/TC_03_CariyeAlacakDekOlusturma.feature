@@ -15,3 +15,4 @@
       Then Kullanici Cari seçimini yapar
       Then Kullanici Tl Tutar girer
       Then Kullanici Borc Dekontunu kaydeder
+       #Bu test çalışıyor

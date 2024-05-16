@@ -13,3 +13,4 @@
       When Kullanici banka adı girer
       When Kullanici banka kaydet butonuna tıklar
       Then Kullanici olusturdugu banka hesabını siler
+      #Bu test çalışıyor
