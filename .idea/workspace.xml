@@ -316,7 +316,8 @@
       <workItem from="1715666381550" duration="9493000" />
       <workItem from="1715695815063" duration="1500000" />
       <workItem from="1715752605946" duration="6132000" />
-      <workItem from="1715777300625" duration="1000000" />
+      <workItem from="1715777300625" duration="4432000" />
+      <workItem from="1715840495397" duration="2427000" />
     </task>
     <task id="LOCAL-00001" summary="5.03.2024/v-2">
       <option name="closed" value="true" />
@@ -686,7 +687,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715690656564</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="14.05.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1715778897339</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1715778897339</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -735,6 +744,17 @@
     <MESSAGE value="13.05.2024/v-1" />
     <MESSAGE value="14.05.2024/v-1" />
     <option name="LAST_COMMIT_MESSAGE" value="14.05.2024/v-1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/target/default-cucumber-reports.html</url>
+          <line>50</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
