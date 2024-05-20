@@ -60,7 +60,6 @@ public class Ekocari_StepDef {
     public void cariYeTıklar() {
         homePage.carisec.click();
     }
-
     @Then("Cari kartlara tıklar")
     public void cariKartlaraTıklar() {
         homePage.carikartsec.click();
