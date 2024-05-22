@@ -16,6 +16,7 @@ Feature: Kullanici Cari Ekler ve Cari Siler
     Then Kaydet butonuna tıklar
     #dogrulama ekle
 
+
   Scenario:US_02_Kullanici Yeni Olusturdugu Cariyi Siler
     Given Cari listesindeki son karta sag tıklar ve siler
     When Kullanici sayfayi kapatir
