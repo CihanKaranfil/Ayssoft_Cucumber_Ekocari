@@ -15,8 +15,7 @@ public class StokEklemeSilme_Def {
 
     @Given("Kullanici stok menusune tıklar")
     public void kullaniciStokMenusuneTıklar() throws InterruptedException {
-        stokPages.stok.click();Thread.sleep(1000
-        );
+        stokPages.stok.click();Thread.sleep(1000);
     }
 
     @When("Kullanici stok kartlar a tıklar")

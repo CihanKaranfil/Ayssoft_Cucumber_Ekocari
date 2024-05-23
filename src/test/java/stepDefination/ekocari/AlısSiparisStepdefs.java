@@ -15,7 +15,6 @@ public class AlısSiparisStepdefs {
     public void yeniSiparişOluşturaTıkla() {
         alisSiparis.yeniSiparis.click();
 
-
     }
 }
     

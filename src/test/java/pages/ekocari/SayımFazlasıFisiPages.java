@@ -8,7 +8,7 @@ import utilities.Driver;
 public class SayımFazlasıFisiPages {
     public SayımFazlasıFisiPages(){PageFactory.initElements(Driver.getDriver(), this);}
 
-    @FindBy(xpath ="//*[@id=\"gelecekDeger\"]/div[1]/div[4]/div/div/a[5]") public  WebElement sayımFazlasıFisi;
+    @FindBy(xpath ="//*[@id=\"gelecekDeger\"]/div[1]/div[4]/div/div/a[5]") public  WebElement sayimFazlasiFisi;
 
 
 
