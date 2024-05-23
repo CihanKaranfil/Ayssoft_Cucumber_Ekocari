@@ -25,7 +25,6 @@ public class BorcDekontuDef {
     @Then("Kullanici Yeni Cari Hareketlerine tıklar")
     public void kullaniciYeniCariHareketlerineTıklar() throws InterruptedException {
        borcDekontu.yenicariHareketler.click();Thread.sleep(1000);
-        
     }
 
     @Then("Kullanici Borc Dekondunu secer")
@@ -68,10 +67,6 @@ public class BorcDekontuDef {
 
     @When("Kullanici olusturdugu borç dekontuna sag tıklar")
     public void kullaniciOlusturduguBorçDekontunaSagTıklar() throws InterruptedException {
-      //List<WebElement> cariHareketler = Driver.getDriver().findElements(By.xpath("//*[@role='row']"));
-      //actions.contextClick(cariHareketler.get(cariHareketler.size()-2)).perform();
-       //borcDekontu.ilksatır.click();
-       //actions.doubleClick(borcDekontu.ilksatır).perform();
 
         JavascriptExecutor js = (JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].scrollIntoView(true);", borcDekontu.ilksatır);

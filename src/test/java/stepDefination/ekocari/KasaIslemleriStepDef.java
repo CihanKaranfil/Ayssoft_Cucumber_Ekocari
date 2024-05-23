@@ -20,7 +20,6 @@ public class KasaIslemleriStepDef {
     @Then("Kullanici kasa listedine tıklar")
     public void kullaniciKasaListedineTıklar() throws InterruptedException {
         kasaPages.kasaListesi.click();
-
     }
 
     @Then("Kullanici Yeni Kasa butonuna tıklar")

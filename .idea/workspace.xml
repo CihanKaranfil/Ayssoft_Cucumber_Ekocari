@@ -4,8 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="20.05.2024/v-1">
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="23.05.2024/v-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ekocari/SayımFazlasıFisiPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/SayımFazlasıFisiPages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisFaturasiDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisFaturasiDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisIrsaliyesiStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisIrsaliyesiStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisTeklifStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisTeklifStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlısSiparisStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlısSiparisStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/BorcDekontuDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/BorcDekontuDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/CekMenusuStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/CekMenusuStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/FireFisiStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/FireFisiStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/KasaIslemleriStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/KasaIslemleriStepDef.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/SatısİrsaliyesiStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/SatısİrsaliyesiStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/SayımFazlasıStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/SayımFazlasıStepdefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/StokEklemeSilme_Def.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/StokEklemeSilme_Def.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/02_CariModülü/TC_01_YeniCariEkleme_Silme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/02_CariModülü/TC_01_YeniCariEkleme_Silme.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,10 +205,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme" />
         <item itemvalue="Cucumber Java.Feature: TC_02_eFaturaOluştrma" />
-        <item itemvalue="Cucumber Java.Feature: DövizliSatışFatAçıklamanınBoşOlması" />
         <item itemvalue="Cucumber Java.Feature: TC_02_CariyeBorcDekOluştorma_Silme" />
+        <item itemvalue="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme" />
+        <item itemvalue="Cucumber Java.Feature: DövizliSatışFatAçıklamanınBoşOlması" />
       </list>
     </recent_temporary>
   </component>
@@ -322,23 +335,9 @@
       <workItem from="1716185465890" duration="7891000" />
       <workItem from="1716217119291" duration="35000" />
       <workItem from="1716271752066" duration="7600000" />
-      <workItem from="1716358395420" duration="3703000" />
-    </task>
-    <task id="LOCAL-00001" summary="5.03.2024/v-2">
-      <option name="closed" value="true" />
-      <created>1709637630634</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1709637630634</updated>
-    </task>
-    <task id="LOCAL-00002" summary="5.03.2024/v-2">
-      <option name="closed" value="true" />
-      <created>1709729258472</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1709729258473</updated>
+      <workItem from="1716358395420" duration="7796000" />
+      <workItem from="1716444185705" duration="2579000" />
+      <workItem from="1716457754532" duration="1000000" />
     </task>
     <task id="LOCAL-00003" summary="6.03.2024/v-2">
       <option name="closed" value="true" />
@@ -716,7 +715,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716211888641</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="20.05.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1716382091297</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1716382091299</updated>
+    </task>
+    <task id="LOCAL-00051" summary="22.05.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1716382127780</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1716382127780</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -739,8 +754,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="02.04.2024/v-1" />
-    <MESSAGE value="03.04.2024/v-1" />
     <MESSAGE value="04.04.2024/v-1" />
     <MESSAGE value="05.04.2024/v-1" />
     <MESSAGE value="08.04.2024/v-1" />
@@ -764,7 +777,9 @@
     <MESSAGE value="14.05.2024/v-1" />
     <MESSAGE value="16.05.2024/v-1" />
     <MESSAGE value="20.05.2024/v-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="20.05.2024/v-1" />
+    <MESSAGE value="22.05.2024/v-1" />
+    <MESSAGE value="23.05.2024/v-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="23.05.2024/v-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

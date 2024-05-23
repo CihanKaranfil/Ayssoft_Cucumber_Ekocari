@@ -22,15 +22,12 @@ public class AlisIrsaliyesiStepDef {
     public void cariSeçiminiYapYeniIrsaliyede() {
         alisIrsaliyesi.CariSec.click();
        actions.doubleClick(alisIrsaliyesi.listedenCariSec).perform();
-
     }
 
     @When("Kullanici olusturdugu irsliyeye sag tıklar")
     public void kullaniciOlusturduguIrsliyeyeSagTıklar() {
         JavascriptExecutor js =(JavascriptExecutor) Driver.getDriver();
         js.executeScript("arguments[0].scrollIntoView(true)",alisIrsaliyesi.olusanCari);
-
-
 
     }
 

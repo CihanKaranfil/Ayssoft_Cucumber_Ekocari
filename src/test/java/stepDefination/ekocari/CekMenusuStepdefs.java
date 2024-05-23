@@ -42,7 +42,6 @@ Actions actions = new Actions(Driver.getDriver());
     public void cekMenüsündeCariSeç() throws InterruptedException {
         cekMenusu.cariucnokta.click();Thread.sleep(2000);
         actions.doubleClick(cekMenusu.listedenCarisecimi).perform();
-
     }
 
     @And("Tl Tutar gir")

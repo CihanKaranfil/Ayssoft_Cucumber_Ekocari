@@ -14,7 +14,6 @@ public class FireFisiStepdefs {
     @Then("Kullanici yeni stok harekete tıklar")
     public void kullaniciYeniStokHareketeTıklar() {
         fireFisi.yenistokHareketi.click();
-        
     }
 
     @Then("Kullanici fire fisi olustura tıklar")

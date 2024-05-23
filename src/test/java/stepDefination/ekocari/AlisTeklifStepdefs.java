@@ -9,7 +9,6 @@ public class AlisTeklifStepdefs {
     @Then("Alış Tekliflerine tikla")
     public void alışTekliflerineTikla() {
         alisTeklif.alisTeklif.click();
-        
     }
 
     @Then("Yeni Teklife tıkla")

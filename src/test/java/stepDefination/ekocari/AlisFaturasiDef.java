@@ -42,7 +42,6 @@ public class AlisFaturasiDef {
         alisPages.listedencarisec2.click();
         alisPages.listedencarisec2.click();
 
-
     }
     @When("Cari seçimini yap2")
     public void cariSeçiminiYap2() throws InterruptedException {
@@ -60,7 +59,6 @@ public class AlisFaturasiDef {
     public void satırEkleButonunaTıkla() throws InterruptedException {
         alisPages.satirEkle.click();
         Thread.sleep(3000);
-
     }
 
     @Then("Yeni Alıs Faturası Kaydet butonuna tıklar")
@@ -77,10 +75,7 @@ public class AlisFaturasiDef {
     @When("Alıs faturasında Cari seçimini yap")
     public void alısFaturasındaCariSeçiminiYap() throws InterruptedException {
         alisPages.cariSec.click();Thread.sleep(1000);
-
       actions.doubleClick(alisPages.listedenCariSec).perform();
-
-
 
     }
 }

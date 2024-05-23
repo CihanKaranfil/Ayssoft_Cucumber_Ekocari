@@ -50,7 +50,6 @@ public class SatısİrsaliyesiStepdefs {
     @When("Satıs İade de Cari seçimini yap")
     public void satısİadeDeCariSeçiminiYap() throws InterruptedException {
         alisPages.caributton.click();Thread.sleep(1000);
-
         actions.doubleClick(alisPages.listedencarisec3).perform();
 
 
