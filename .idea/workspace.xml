@@ -6,19 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="23.05.2024/v-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/pages/ekocari/SayımFazlasıFisiPages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/ekocari/SayımFazlasıFisiPages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisFaturasiDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisFaturasiDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisIrsaliyesiStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisIrsaliyesiStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisTeklifStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlisTeklifStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlısSiparisStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/AlısSiparisStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/BorcDekontuDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/BorcDekontuDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/CekMenusuStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/CekMenusuStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/FireFisiStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/FireFisiStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/KasaIslemleriStepDef.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/KasaIslemleriStepDef.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/SatısİrsaliyesiStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/SatısİrsaliyesiStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/SayımFazlasıStepdefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/SayımFazlasıStepdefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/StokEklemeSilme_Def.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepDefination/ekocari/StokEklemeSilme_Def.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/02_CariModülü/TC_01_YeniCariEkleme_Silme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/02_CariModülü/TC_01_YeniCariEkleme_Silme.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,10 +192,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.Runner" />
-        <item itemvalue="Cucumber Java.Feature: TC_02_eFaturaOluştrma" />
-        <item itemvalue="Cucumber Java.Feature: TC_02_CariyeBorcDekOluştorma_Silme" />
-        <item itemvalue="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme" />
-        <item itemvalue="Cucumber Java.Feature: DövizliSatışFatAçıklamanınBoşOlması" />
       </list>
     </recent_temporary>
   </component>
@@ -337,15 +320,8 @@
       <workItem from="1716271752066" duration="7600000" />
       <workItem from="1716358395420" duration="7796000" />
       <workItem from="1716444185705" duration="2579000" />
-      <workItem from="1716457754532" duration="1000000" />
-    </task>
-    <task id="LOCAL-00003" summary="6.03.2024/v-2">
-      <option name="closed" value="true" />
-      <created>1709729319184</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1709729319184</updated>
+      <workItem from="1716457754532" duration="1428000" />
+      <workItem from="1716790235129" duration="5798000" />
     </task>
     <task id="LOCAL-00004" summary="11.03.2024/v-1">
       <option name="closed" value="true" />
@@ -731,7 +707,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716382127780</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="23.05.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1716470464112</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1716470464113</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -26,7 +26,6 @@ public class VirmanStepdefs {
         virmanPages.alacaklıCari.click();Thread.sleep(1000);
         actions.doubleClick(virmanPages.cariSecme).perform();
     }
-
     @Then("Kullanici virman kaydet butonuna tıklar")
     public void kullaniciVirmanKaydetButonunaTıklar() throws InterruptedException {
         try {
