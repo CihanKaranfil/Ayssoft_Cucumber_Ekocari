@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="23.05.2024/v-1">
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="27.05.2024/v-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_01_SatısFaturasıEBelgeGönderme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_01_SatısFaturasıEBelgeGönderme.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +98,7 @@
       <recent name="pages.ekocari" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner">
+  <component name="RunManager" selected="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme">
     <configuration name="Feature: DövizliSatışFatAçıklamanınBoşOlması" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocaride_Alınan_Hatalar/devamEdenHatalar/DövizliSatışFatAçıklamanınBoşOlması.feature" />
@@ -191,6 +192,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme" />
         <item itemvalue="JUnit.Runner" />
       </list>
     </recent_temporary>
@@ -321,15 +323,10 @@
       <workItem from="1716358395420" duration="7796000" />
       <workItem from="1716444185705" duration="2579000" />
       <workItem from="1716457754532" duration="1428000" />
-      <workItem from="1716790235129" duration="5798000" />
-    </task>
-    <task id="LOCAL-00004" summary="11.03.2024/v-1">
-      <option name="closed" value="true" />
-      <created>1710159037547</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1710159037547</updated>
+      <workItem from="1716790235129" duration="8685000" />
+      <workItem from="1716875741372" duration="7646000" />
+      <workItem from="1716962737773" duration="5834000" />
+      <workItem from="1717049325960" duration="2484000" />
     </task>
     <task id="LOCAL-00005" summary="13.03.2024/v-1">
       <option name="closed" value="true" />
@@ -715,7 +712,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716470464113</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="27.05.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1716817124737</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1716817124737</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -738,7 +743,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="04.04.2024/v-1" />
     <MESSAGE value="05.04.2024/v-1" />
     <MESSAGE value="08.04.2024/v-1" />
     <MESSAGE value="08.04.2024/v-2" />
@@ -763,7 +767,8 @@
     <MESSAGE value="20.05.2024/v-1" />
     <MESSAGE value="22.05.2024/v-1" />
     <MESSAGE value="23.05.2024/v-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="23.05.2024/v-1" />
+    <MESSAGE value="27.05.2024/v-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="27.05.2024/v-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
