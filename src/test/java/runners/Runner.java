@@ -17,8 +17,7 @@ import org.junit.runner.RunWith;
                   tags = "@ortaktag",
                   dryRun = false
 )
-public class Runner {
-
-
+public class
+Runner {
 
 }

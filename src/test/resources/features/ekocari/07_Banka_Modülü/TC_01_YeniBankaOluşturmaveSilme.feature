@@ -1,6 +1,5 @@
 @ortaktag
   Feature: Banka İşlemleri
-
     Scenario: Kullanici Yeni Banka  hesabı oluşturur
       Given Kullanici "ekocariUrl" sayfasına gider
       When Kullanici e pota ve sifre girer
@@ -14,3 +13,4 @@
       When Kullanici banka kaydet butonuna tıklar
       Then Kullanici olusturdugu banka hesabını siler
       #Bu test çalışıyor
+      #BAnka kodu oluştururken bazen hataya düşüyor
