@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="27.05.2024/v-1">
+    <list default="true" id="e7e5d8bb-725d-48ae-8f65-81dcd21bd070" name="Changes" comment="30.05.2024/v-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runners/Runner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/07_Banka_Modülü/TC_01_YeniBankaOluşturmaveSilme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/07_Banka_Modülü/TC_01_YeniBankaOluşturmaveSilme.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_01_SatısFaturasıEBelgeGönderme.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_01_SatısFaturasıEBelgeGönderme.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/uyumsoft/TC_01_KullaniciGirişYapabilmeli.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/uyumsoft/TC_02_eFaturaOluştrma.feature" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,18 +100,20 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pages.uyumsoft" />
+      <recent name="hooks" />
       <recent name="pages.ekocari" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme">
-    <configuration name="Feature: DövizliSatışFatAçıklamanınBoşOlması" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: TC_01_YeniBankaOluşturmaveSilme">
+    <configuration name="Feature: TC_01_SatısFaturasıEBelgeGönderme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocaride_Alınan_Hatalar/devamEdenHatalar/DövizliSatışFatAçıklamanınBoşOlması.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_01_SatısFaturasıEBelgeGönderme.feature" />
       <option name="GLUE" value="stepDefination.ekocari hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AYSSOFT_CUCUMBER_TEST" />
+      <module name="EKOCARİ_CUCUMBER_TEST" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: DövizliSatışFatAçıklamanınBoşOlması" />
+      <option name="SUGGESTED_NAME" value="Feature: TC_01_SatısFaturasıEBelgeGönderme" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -118,14 +125,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: TC_01_SatısFaturasıEBelgeGönderme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: TC_01_YeniBankaOluşturmaveSilme" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/10_eBelge_Modülü/TC_01_SatısFaturasıEBelgeGönderme.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/07_Banka_Modülü/TC_01_YeniBankaOluşturmaveSilme.feature" />
       <option name="GLUE" value="stepDefination.ekocari hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AYSSOFT_CUCUMBER_TEST" />
+      <module name="EKOCARİ_CUCUMBER_TEST" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: TC_01_SatısFaturasıEBelgeGönderme" />
+      <option name="SUGGESTED_NAME" value="Feature: TC_01_YeniBankaOluşturmaveSilme" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -142,7 +149,7 @@
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/ekocari/02_CariModülü/TC_02_CariyeBorcDekOluştorma_Silme.feature" />
       <option name="GLUE" value="stepDefination.ekocari hooks" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AYSSOFT_CUCUMBER_TEST" />
+      <module name="EKOCARİ_CUCUMBER_TEST" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: TC_02_CariyeBorcDekOluştorma_Silme" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
@@ -161,7 +168,7 @@
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/uyumsoft/TC_02_eFaturaOluştrma.feature" />
       <option name="GLUE" value="stepDefination.ekocari hooks stepDefination.uyumsoft" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="AYSSOFT_CUCUMBER_TEST" />
+      <module name="EKOCARİ_CUCUMBER_TEST" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <option name="SUGGESTED_NAME" value="Feature: TC_02_eFaturaOluştrma" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
@@ -176,7 +183,7 @@
       </method>
     </configuration>
     <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AYSSOFT_CUCUMBER_TEST" />
+      <module name="EKOCARİ_CUCUMBER_TEST" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="runners.*" />
@@ -192,8 +199,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme" />
+        <item itemvalue="Cucumber Java.Feature: TC_01_YeniBankaOluşturmaveSilme" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Feature: TC_01_SatısFaturasıEBelgeGönderme" />
       </list>
     </recent_temporary>
   </component>
@@ -327,14 +335,19 @@
       <workItem from="1716875741372" duration="7646000" />
       <workItem from="1716962737773" duration="5834000" />
       <workItem from="1717049325960" duration="2484000" />
-    </task>
-    <task id="LOCAL-00005" summary="13.03.2024/v-1">
-      <option name="closed" value="true" />
-      <created>1710328421261</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1710328421261</updated>
+      <workItem from="1717058381686" duration="3560000" />
+      <workItem from="1717135023156" duration="4270000" />
+      <workItem from="1717144595174" duration="9496000" />
+      <workItem from="1717394773783" duration="6506000" />
+      <workItem from="1717481482686" duration="1080000" />
+      <workItem from="1717482852805" duration="1309000" />
+      <workItem from="1717484610059" duration="77000" />
+      <workItem from="1717486257360" duration="9539000" />
+      <workItem from="1717567825976" duration="3842000" />
+      <workItem from="1717573071338" duration="3355000" />
+      <workItem from="1717654408473" duration="8394000" />
+      <workItem from="1717740488721" duration="4222000" />
+      <workItem from="1717999916101" duration="4823000" />
     </task>
     <task id="LOCAL-00006" summary="14.03.2024/v-1">
       <option name="closed" value="true" />
@@ -720,7 +733,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716817124737</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="30.05.2024/v-1">
+      <option name="closed" value="true" />
+      <created>1717058504990</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1717058504990</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -743,7 +764,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="05.04.2024/v-1" />
     <MESSAGE value="08.04.2024/v-1" />
     <MESSAGE value="08.04.2024/v-2" />
     <MESSAGE value="15.04.2024/v-2" />
@@ -768,7 +788,8 @@
     <MESSAGE value="22.05.2024/v-1" />
     <MESSAGE value="23.05.2024/v-1" />
     <MESSAGE value="27.05.2024/v-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="27.05.2024/v-1" />
+    <MESSAGE value="30.05.2024/v-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="30.05.2024/v-1" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
